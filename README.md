@@ -6,7 +6,7 @@
 
 `2º semestre/2024`
 
-A GigTime é uma plataforma que busca facilitar a conexão entre músicos e contratantes (casas de show, restaurantes, eventos, etc.), fornecendo recursos valiosos para ajudar os usuários a alcancarem seus objetivos no mercado da música ao vivo.
+A GigTime é uma plataforma que busca facilitar a conexão entre músicos e contratantes, fornecendo recursos valiosos para ajudar os usuários a alcançar seus objetivos no mercado da música ao vivo.
 
 ## Integrantes
 
