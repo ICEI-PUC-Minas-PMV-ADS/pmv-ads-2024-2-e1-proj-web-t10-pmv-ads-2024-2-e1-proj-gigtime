@@ -1,25 +1,25 @@
-# Título do Projeto
+# GigTime
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`2º semestre/2024`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Carlos Henrique Pereira Silva
+* Jefferson Luiz Mendonça da Silva
+* Kauã Eduardo Silva
+* Lucas Carvalho de Oliveira
+* Tais Rocha Nogueira
+* William Rocha Leal Viana
 
 ## Orientador
 
-* Nome completo do professor
+* Humberto Azevedo Nigri do Carmo
 
 # Documentação
 
