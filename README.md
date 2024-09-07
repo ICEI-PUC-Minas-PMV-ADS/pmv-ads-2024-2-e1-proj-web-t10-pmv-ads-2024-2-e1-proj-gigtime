@@ -6,7 +6,7 @@
 
 `2º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+A GigTime é uma plataforma que busca facilitar a conexão entre músicos e contratantes (casas de show, restaurantes, eventos, etc.), fornecendo recursos valiosos para ajudar os usuários a alcancarem seus objetivos no mercado da música ao vivo.
 
 ## Integrantes
 
