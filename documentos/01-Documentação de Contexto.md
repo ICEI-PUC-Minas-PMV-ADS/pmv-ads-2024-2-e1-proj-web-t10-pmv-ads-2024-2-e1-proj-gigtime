@@ -2,7 +2,7 @@
 
 A entrada no mercado da música não é uma tarefa fácil, e o talento não é único fator para obter sucesso. Como afirma Grome a Forbes (2023), ‘o networking vai além do talento musical; envolve marketing, relações públicas e relacionamentos pessoais’. Este conceito destaca a importância de fatores complementares na construção de uma carreira sólida. 
 
-Em um ambiente competitivo, e com a expansão das mídias sociais como ferramenta de engajamento e promoção, muitos músicos enfrentam desafios para estabelecer relações e se conectar com outros profissionais, bem como com estabelecimentos e eventos para divulgação do seu trabalho. Além disso, esses mesmos estabelecimentos e eventos também buscam ativamente músicos que possam agregar valor às suas propostas e oferecer algo diferenciado.  
+Em um ambiente competitivo, e com a expansão das mídias sociais como ferramenta de engajamento e promoção, muitos músicos enfrentam desafios para estabelecer relações e se conectar com outros profissionais, bem como com estabelecimentos e eventos para divulgação do seu trabalho. Além disso, esses mesmos estabelecimentos e eventos também buscam ativamente músicos que possam agregar valor às suas propostas e oferecer algo diferenciado.
 
 Dessa forma, é essencial fornecer um ambiente estruturado de networking que facilite não apenas as conexões entre músicos, mas também a interação com contratantes que demandem suas habilidades. Oferecer tais recursos pode ser a chave para criar uma rede de contatos eficaz, impulsionando o desenvolvimento e a promoção dos artistas.
 
@@ -14,9 +14,9 @@ O problema que este projeto visa abordar e remediar é dificuldade na criação 
 
 Este projeto tem como objetivo facilitar a interação e o networking entre músicos e contratantes, abordando as dificuldades que músicos enfrentam para encontrar eventos e estabelecimentos para localizar músicos que se alinhem com seu perfil e objetivos. 
 
-- Auxiliar músicos na busca por gigs, conectando-os a oportunidades de apresentações. 
+- Auxiliar músicos na busca por *gigs*, conectando-os a oportunidades de apresentações.
 
-- Facilitar a conexão entre estabelecimentos e músicos ou bandas que se encaixem no perfil desejado para eventos ou apresentações. 
+- Facilitar a conexão entre estabelecimentos e músicos ou bandas que se encaixem no perfil desejado para eventos ou apresentações.
 
 - Promover o networking entre músicos que desejam formar bandas ou colaborar em projetos musicais, fortalecendo parcerias profissionais no setor.
 
@@ -31,7 +31,7 @@ Ao realizar uma pesquisa de mercado sobre as dificuldades enfrentadas pelos mús
 
 ## Público-Alvo
 
-O público-alvo é composto por músicos independentes que buscam oportunidades para expandir suas carreiras, alcançar novos públicos e garantir apresentações ou colaborações. Esses músicos geralmente possuem talento e paixão, mas podem encontrar desafios em se promover, conseguir gigs e gerenciar suas carreiras sem o suporte de grandes gravadoras ou agentes. 
+O público-alvo é composto por músicos independentes que buscam oportunidades para expandir suas carreiras, alcançar novos públicos e garantir apresentações ou colaborações. Esses músicos geralmente possuem talento e paixão, mas podem encontrar desafios em se promover, conseguir *gigs* e gerenciar suas carreiras sem o suporte de grandes gravadoras ou agentes. 
 
 Além disso, o público também inclui organizadores de eventos, donos de bares, restaurantes, casas de shows, casamentos e outras celebrações que buscam músicos talentosos para enriquecer suas programações. Eles estão em busca de artistas que ofereçam performances autênticas e de alta qualidade, adequadas às necessidades específicas de cada evento. 
 
