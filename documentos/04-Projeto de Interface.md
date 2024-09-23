@@ -12,17 +12,11 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 > - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
 > - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
-## Protótipo
-
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
-
 ### Protótipo de baixa fidelidade
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
@@ -31,5 +25,71 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 >> - [MarvelApp](https://marvelapp.com/)
 >> - [Figma](https://www.figma.com/)
 
+### Tela - Landing Page
 
+Página inicial com informações do site e opções para músicos e contratantes navegarem.
+
+### Tela - Login
+
+Tela onde usuários entram no sistema usando suas credenciais.
+
+### Tela - Registro
+
+Formulário para novos usuários se cadastrarem como músicos ou contratantes.
+
+### Tela - Anúncios
+
+Espaço onde contratantes e músicos publicam seus anúncios.
+
+### Tela - Edição de Perfil - Contratante
+
+Permite ao contratante atualizar suas informações pessoais e detalhes do estabelecimento.
+
+### Tela - Edição de Perfil - Músico
+
+Permite ao músico editar dados de contato, habilidades e portfólio.
+
+### Tela - Visualização de Perfil
+
+Exibe informações públicas dos perfis de músicos ou contratantes.
+
+### Tela - Formulário Publicar Evento/Estabelecimento
+
+Contratantes criam anúncios de eventos ou estabelecimentos.
+
+### Tela - Formulário Contratar Músico
+
+Permite aos contratantes enviar propostas de contratação a músicos.
+
+### Tela - Formulário Se Candidatar para Evento
+
+Músicos se inscrevem para eventos disponíveis no site.
+
+### Tela - Formulário Cadastro Estabelecimento
+
+Primeira parte do cadastro de estabelecimentos, com dados básicos.
+
+### Tela - Formulário Cadastro Estabelecimento - Parte 2
+
+Segunda parte, com informações relacionadas à localização.
+
+### Tela - Formulário Cadastro Estabelecimento - Parte 3
+
+Terceira parte, com espaço para anexar mídias.
+
+### Tela - Chat
+
+Sistema de mensagens para comunicação entre músicos e contratantes.
+
+### Tela - Dashboard Contratante
+
+Visão geral do perfil do contratante quando seu anúncio é acessado.
+
+### Tela - Dashboard Músico
+
+Visão geral do perfil do músico quando seu anúncio é acessado.
+
+## Tela - Contato com anunciante
+
+Canal para entrar em contato com o anunciante, seja músico ou contratante.
 
