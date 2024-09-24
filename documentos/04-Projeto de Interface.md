@@ -5,7 +5,7 @@ O projeto foi desenvolvido estabelecendo que a interface do sistema atenderia a 
 
 ## User Flow
 
-Elaboramos um fluxograma para demonstrar o fluxo de interação do usuário pelas telas do sistema, utilizando a ferramenta Figma. A Figura 1, apresentada em anexo, proporciona uma compreensão mais aprofundada da usabilidade do sistema. Para obter mais detalhes sobre a usabilidade, acesse o link fornecido: [Projeto de baixa fidelidade]([https://figma.com](https://www.figma.com/proto/onmbViV0CZKPLkAwXNwSYa/GigTime-(Prot%C3%B3tipo-Baixa-Fidelidade)?node-id=18-15&node-type=canvas&t=8xfFU7zfXHotIbdR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A15)).
+Elaboramos um fluxograma para demonstrar o fluxo de interação do usuário pelas telas do sistema, utilizando a ferramenta Figma. A Figura 1, apresentada em anexo, proporciona uma compreensão mais aprofundada da usabilidade do sistema. Para obter mais detalhes sobre a usabilidade, acesse o link fornecido: [Projeto de baixa fidelidade](https://www.figma.com/proto/onmbViV0CZKPLkAwXNwSYa/GigTime-(Prot%C3%B3tipo-Baixa-Fidelidade)?node-id=18-15&node-type=canvas&t=8xfFU7zfXHotIbdR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A15)
 
 
 ![Group 40](https://github.com/user-attachments/assets/7eb280d2-a725-491b-a0a8-12556b1011cd)
