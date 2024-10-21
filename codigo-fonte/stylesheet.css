@@ -1,0 +1,16 @@
+
+:root{
+    --backgroundColor: #fcf6f3;
+    --primaryColor: #e55c1e;
+    --secondaryColor: #484f9f;
+    --accentColor: #f7b801;
+    --textColor: #070200;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundColor{
+    background-color: var(--backgroundColor);
+}
