@@ -1,3 +1,5 @@
+/* Paleta de cores escritas como variaveis, para utilizar no codigo basta usar var(--nomedavariavel)
+Exemplo: background-color: var(--backgroundColor)*/
 
 :root{
     --backgroundColor: #fcf6f3;
