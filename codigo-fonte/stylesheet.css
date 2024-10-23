@@ -21,6 +21,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+<<<<<<< HEAD
+.backgroundColor{
+    background-color: var(--backgroundColor);
+}
+=======
 body {
     display: flex;
     justify-content: center;
@@ -93,3 +98,4 @@ body {
 }
 
 
+>>>>>>> 75528b2e8e1b8e1cf5ac683ef458a98184d20fd5
