@@ -1,18 +1,95 @@
-/* Paleta de cores escritas como variaveis, para utilizar no codigo basta usar var(--nomedavariavel)
-Exemplo: background-color: var(--backgroundColor)*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+    /* Paleta de cores escritas como variaveis, para utilizar no codigo basta usar var(--nomedavariavel)
+    Exemplo: background-color: var(--backgroundColor)*/
 
 :root{
-    --backgroundColor: #fcf6f3;
+    --backgroundColor: #FAF9F6;
     --primaryColor: #e55c1e;
     --secondaryColor: #484f9f;
     --accentColor: #f7b801;
     --textColor: #070200;
+    --prototipation1: #EBEBEB;
+    --prototipation2: #CBCBCB;
 }
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
-.backgroundColor{
-    background-color: var(--backgroundColor);
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--backgroundColor);
 }
+
+.container{
+    position: relative;
+    width: calc(100vw - 80px);
+    max-width: 100%;
+    height: calc(100vh - 40px);
+    background: var(--prototypegray);
+    box-shadow: 0 1px 1px 0 gray; 
+    display: flex;
+}
+
+.container .leftside{
+    position: relative;
+    flex: 30%;
+    background: var(--prototipation2);
+    border-right: 1px solid rgb(114, 113, 113);
+}
+
+.container .rightside{
+    position:relative;
+    flex: 70%;
+    background: var(--prototipation1);
+}
+
+.container .chatLeftHeader{
+
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: var(--prototipation1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+}
+
+.chatNavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.chatNavbar li{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-size: 2em;
+    margin-left: 22px;
+    align-items:center;
+
+}
+
+.chatNavbar a{
+    font-weight: 400;
+}
+
+
+
+
+.iconMore{
+   vertical-align: middle;
+}
+
+
