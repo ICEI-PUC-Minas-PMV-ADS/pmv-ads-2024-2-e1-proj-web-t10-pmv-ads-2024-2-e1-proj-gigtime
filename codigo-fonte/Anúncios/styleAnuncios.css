@@ -1,1 +1,50 @@
+:root{
+  --backgroundColor: #fcf6f3;
+  --primaryColor: #e55c1e;
+  --secondaryColor: #484f9f;
+  --accentColor: #f7b801;
+  --textColor: #070200;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
 
+.bg-gig{
+  background-color: var(--backgroundColor);
+}
+.bg-gig-pr{
+  background-color: var(--primaryColor);
+}
+.bg-gig-sc{
+  background-color: var(--secondaryColor);
+}
+.bg-gig-ac{
+  background-color: var(--accentColor);
+}
+
+.text-gig{
+  color: var(--textColor);
+}
+.text-gig-pr{
+  color: var(--primaryColor);
+}
+.text-gig-sc{
+  color: var(--secondaryColor);
+}
+.text-gig-ac{
+  color: var(--accentColor);
+}
+
+
+.pt-6 {
+    padding-top: 5rem; /* Custom value for larger padding */
+  }
+.pt-7 {
+    padding-top: 6rem; /* Custom value for even more padding */
+  }
