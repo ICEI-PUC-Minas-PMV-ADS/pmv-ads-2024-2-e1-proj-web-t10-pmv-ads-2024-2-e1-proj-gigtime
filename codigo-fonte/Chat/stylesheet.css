@@ -12,6 +12,8 @@
     --textColor: #070200;
     --prototipation1: #EBEBEB;
     --prototipation2: #CBCBCB;
+    --fadingblack: #3c3c3c;
+    --temp: #b6b6b6;
 }
 
 * {
@@ -85,11 +87,111 @@ body {
     font-weight: 400;
 }
 
-
-
-
 .iconMore{
    vertical-align: middle;
 }
+
+.chatlist{
+    position: relative;
+    overflow-y: auto;
+    height: calc(100% - 80px);
+}
+
+.chatlist .chatBlock{
+    position: relative;
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid black; /* bordas */
+    cursor: pointer;
+}
+
+.chatlist .chatBlock.active{
+    background: var(--temp);
+}
+
+.chatlist .chatBlock:hover{
+    background: var(--temp);
+}
+
+
+
+
+.cover{
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    cursor: pointer;
+}
+
+.chatlist .chatBlock .profilePicture{
+    position: relative;
+    min-width:45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius:50%;
+    margin-right:10px
+}
+
+.chatlist .chatBlock .details{
+    position: relative;
+    width: 100%;
+}
+
+.chatlist .chatBlock .details .chatBlockHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.chatlist .chatBlock .details .chatBlockHeader h4{
+
+    font-size: 1.0em;
+    font-weight: 150px;
+    color:black;
+}
+
+
+.chatlist .chatBlock .details .chatBlockHeader .time{
+
+    font-size: 0.90em;
+    color: var(--fadingblack);
+}
+
+.message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message p{
+    display:-webkit-box;
+    color: var(--fadingblack);
+    line-clamp: 1;
+    font-size: 1em;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.message b{
+    background: #e55c1e;
+    border-radius: 50%;
+    color: #FAF9F6;
+    min-width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.90em;
+}
+
+
+
+
 
 
