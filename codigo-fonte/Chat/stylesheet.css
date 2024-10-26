@@ -29,6 +29,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: var(--backgroundColor);
+    padding-top: 70px;
 }
 
 .container{
@@ -37,7 +38,7 @@ body {
     max-width: 100%;
     height: calc(100vh - 40px);
     background: var(--prototypegray);
-    box-shadow: 0 1px 1px 0 gray; 
+    /* box-shadow: 0 1px 1px 0 gray;  */
     display: flex;
 }
 
@@ -188,6 +189,20 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 0.90em;
+}
+
+.navbarteste{
+    min-height: 100%;
+    width: auto;
+}
+
+nav{
+    background: #484f9f;
+
+}
+
+.teste {
+    background: var(--backgroundColor);
 }
 
 
