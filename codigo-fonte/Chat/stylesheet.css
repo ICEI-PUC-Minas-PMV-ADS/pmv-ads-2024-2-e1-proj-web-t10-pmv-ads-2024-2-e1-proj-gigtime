@@ -12,7 +12,7 @@
     --textColor: #070200;
     --prototipation1: #EBEBEB;
     --prototipation2: #CBCBCB;
-    --fadingblack: #3c3c3c;
+    --fadingblack: #656565;
     --temp: #b6b6b6;
 }
 
@@ -23,17 +23,17 @@
     font-family: "Roboto", sans-serif;
 }
 
-<<<<<<< HEAD
 .backgroundColor{
     background-color: var(--backgroundColor);
 }
-=======
+
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: var(--backgroundColor);
+    display: flex;
+    padding-top: 70px;
 }
 
 .container{
@@ -42,8 +42,9 @@ body {
     max-width: 100%;
     height: calc(100vh - 40px);
     background: var(--prototypegray);
-    box-shadow: 0 1px 1px 0 gray; 
+    /* box-shadow: 0 1px 1px 0 gray;  */
     display: flex;
+    padding-bottom: 30px;
 }
 
 .container .leftside{
@@ -59,7 +60,7 @@ body {
     background: var(--prototipation1);
 }
 
-.container .chatLeftHeader{
+.container .chatHeader{
 
     position: relative;
     width: 100%;
@@ -68,6 +69,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-items:center;
     padding: 0 15px;
 
 }
@@ -76,6 +78,10 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .chatNavbar li{
@@ -83,13 +89,15 @@ body {
     list-style: none;
     cursor: pointer;
     font-size: 2em;
-    margin-left: 22px;
+    
     align-items:center;
+    justify-content: center;
 
 }
 
 .chatNavbar a{
     font-weight: 400;
+
 }
 
 .iconMore{
@@ -105,6 +113,7 @@ body {
 .chatlist .chatBlock{
     position: relative;
     width:100%;
+    height: 80px;
     display: flex;
     align-items: center;
     padding: 15px;
@@ -150,7 +159,9 @@ body {
 .chatlist .chatBlock .details .chatBlockHeader{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    padding: 0;
+    margin-top: 20px;
+    height: 20px;
 }
 
 .chatlist .chatBlock .details .chatBlockHeader h4{
@@ -167,6 +178,12 @@ body {
     color: var(--fadingblack);
 }
 
+.chatlist .chatBlock.unread .details .chatBlockHeader .time{
+
+    font-size: 0.90em;
+    color: var(--primaryColor);
+}
+
 .message{
     display: flex;
     justify-content: space-between;
@@ -181,6 +198,8 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    word-wrap: break-word;
+    max-height: 28px;
 }
 
 .message b{
@@ -193,6 +212,184 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 0.90em;
+    margin-bottom: auto;
+  
+}
+
+.navbar{
+    background-color: var(--primaryColor);
+
+}
+
+.chatHeader.right{
+    background: var(--prototipation2);
+}
+
+.cover3{
+
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imgtext{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgtext h4{
+    margin: 0;
+   
+    font-weight: 400;
+    line-height: 1.0em;
+    margin-left: 15px;
+}
+
+.imgtext h4 span{
+    font-size: 0.8em;
+    color:var(--fadingblack)
+}
+
+.chatNavbar2{
+    display: flex;
+}
+
+.chatNavbar2 li{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.5em;
+    margin-top:10px;
+    margin-left: 22px;
+}
+
+.chatNavbar2 ion-icon{
+    font-size: 30px;
+    padding: 3px;
+}
+
+
+.chat{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 140px);
+    padding: 50px;
+    overflow-y: auto;
+}
+
+.messagechat{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.messagechat p{
+    position: relative;
+    right: 0;
+    text-align: justify;
+    max-width: 65%;
+    padding: 12px;
+    background: var(--primaryColor);
+    border-radius: 10px;
+    color: white;
+}
+
+.messagechat p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, var(--primaryColor) 0%, var(--primaryColor) 50%, transparent 50%, transparent );
+}
+
+.messagechat p span{
+    display: block;
+    margin-top: 5px;
+    font-size: 0.85em;
+    opacity: 0.5;
+}
+
+.myMessage{
+    justify-content: flex-end;
+}
+
+.friendMessage{
+    justify-content: flex-start;
+}
+
+.friendMessage p{
+    background: #0f0f0f;
+}
+
+.friendMessage p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(225deg, #0f0f0f 0%, #0f0f0f 50%, transparent 50%, transparent );
+}
+
+.chatInput{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: var(--prototipation2);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatInput ion-icon:nth-child(1){
+    margin-right: 15px;
+}
+.chatInput ion-icon{
+    cursor: pointer;
+    font-size: 1.8em;
+    color: var(--fadingblack);
+}
+
+.chatInput input{
+    position: relative;
+    width: 90%;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+footer{
+
+    display: flex;
+    background-color: var(--prototipation2);
+    position: absolute;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    margin-top: 100vh;
+    padding: 10px;
+}
+
+footer p{
+    font-size: small;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -200,4 +397,5 @@ body {
 
 
 
->>>>>>> 75528b2e8e1b8e1cf5ac683ef458a98184d20fd5
+
+

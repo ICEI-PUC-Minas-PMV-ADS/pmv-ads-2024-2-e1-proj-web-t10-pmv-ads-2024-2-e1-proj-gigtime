@@ -5,15 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>Inbox</title>
 </head>
-<body>
-    <div class="container">
 
+<body>
+   
+
+        <nav class="navbar navbar-expand-sm fixed-top bg-gig-pr" data-bs-theme="dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="https://flaticons.net/icon.php?slug_category=miscellaneous&slug_icon=electric-guitar-01" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                GigTime
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <a class="nav-link me-3" href="#">Entrar</a>
+                    <a class="nav-link me-3" href="#">Inscrever-se</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+    
+    <div class="container">
         <div class="leftside">
 
-            <div class="chatLeftHeader">
+            <div class="chatHeader">
 
                 <ul class ="chatNavbar">
                     <li><a>Recentes<ion-icon name="chevron-down-outline" class="iconMore"></a></ion-icon></li>
@@ -38,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="chatBlock">
+                <div class="chatBlock unread">
                     <div class="profilePicture">
                         <img src="../userImages/pfp2.jpeg" class="cover">
                     </div>
@@ -54,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="chatBlock">
+                <div class="chatBlock unread">
                     <div class="profilePicture">
                         <img src="../userImages/pfp3.jpeg" class="cover">
                     </div>
@@ -65,6 +87,7 @@
                         </div>
                         <div class="message">
                             <p>Tudo bom?</p>
+                            <b>1</b>
                         </div>
                     </div>
                 </div>
@@ -114,7 +137,7 @@
                     </div>
                 </div>
 
-                <div class="chatBlock">
+                <div class="chatBlock unread">
                     <div class="profilePicture">
                         <img src="../userImages/pfp7.jpeg" class="cover">
                     </div>
@@ -125,6 +148,7 @@
                         </div>
                         <div class="message">
                             <p>Lembra do carlos o baixista do SkyFall?</p>
+                            <b>9</b>
                         </div>
                     </div>
                 </div>
@@ -136,7 +160,7 @@
                     <div class="details">
                         <div class="chatBlockHeader">
                             <h4>Tulho Santos</h4>
-                            <p class="time">9:47:20</p>
+                            <p class="time">9:47</p>
                         </div>
                         <div class="message">
                             <p>Em quantos shows você já tocou?</p>
@@ -194,9 +218,151 @@
         </div>
 
         <div class="rightside">
+
+            <div class="chatHeader right">
+                <div class ="imgtext">
+                    <div class="userImg">
+                        <img src="../userImAGES/pfp1.jpg" class="cover cover3">
+                    </div>
+                    <h4>Zéquinha<br><span>Online</span></h4>
+                </div>
+
+                <ul class ="chatNavbar2">
+                    <li><ion-icon name="person-circle-outline"></ion-icon></li>
+                    <li><ion-icon name="search-outline"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical-outline"></ion-icon></li>
+
+                </ul>
+                
+            </div>
+
+            <div class="chat">
+
+                <div class="messagechat myMessage">
+                    <p>Salve, irmão! E aí, tudo tranquilo?<br><span>10:43</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Salve! Suave, mano. E você? De boa?<br><span>10:44</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Tudo certo! Vi que você é baixista e já tocou em uns shows. Tava pensando em chamar alguém experiente, né? Curti seu perfil.<br><span>10:45</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Oh, valeu, mano! Eu curto fazer uns trampos massa! Me conta aí o que cê tá bolando?<br><span>10:46</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Então, tô com umas ideias pra um projeto pessoal meu, tipo uma festa com um rolê diferenciado. Queria uma vibe mais intimista, sabe?<br><span>10:48</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Ah, saquei, tipo um lance mais no clima, né? Curti! E você tá pensando em fazer isso onde?<br><span>10:49</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Exato! Tô vendo uns locais ainda, mas provavelmente vai rolar em algum pico mais no centro. E tava pensando num setlist variado, mas com umas pegadas mais groove, pra fazer a galera balançar.<br><span>10:51</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Demorô, isso aí! Groove é a minha praia, cê sabe, né? Já faço uns sons nessa vibe há um tempão. Vai ser da hora!<br><span>10:52</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Aí sim, velho! Certeza que vai agregar no rolê. Qual o estilo que você mais curte tocar?<br><span>10:54</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Olha, sou fã de um bom funk e soul, mas um groove de reggae também bate bem! Se a galera curte dançar, eu vou com tudo.<br><span>10:55</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Boa! A galera vai curtir demais. Vamos meter uns clássicos e uns sons mais atuais pra misturar. Que acha?<br><span>10:56</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Fechou, mano! Uns sons novos junto com aqueles que não falham nunca é sucesso! Já tem uma data em mente?<br><span>10:57</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Tô bolando pra daqui umas três semanas, mais ou menos. Assim dá tempo de alinhar tudo certinho.<br><span>10:59</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Ah, fechou então! E como tá o time? Já tem mais alguém?<br><span>11:01</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Então, por enquanto só eu mesmo, mas tô atrás de um batera e um tecladista também. Conhece alguém que manda bem?<br><span>11:03</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Pior que tenho uns contatos, sim! Posso chamar um brother que manda ver na batera. Toca comigo às vezes, é firmeza.<br><span>11:04</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Aí sim! Seria top demais. Chama ele, vê se topa, vai ser da hora demais.<br><span>11:05</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Demorô! Vou falar com ele e já aviso. Quer saber mais sobre os equipamentos também? Vai que ele precisa levar algo.<br><span>11:06</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Sim, boa! Eu tenho só uma mesa básica. Vou precisar ver o som certinho, mas aí podemos dividir o que cada um leva.<br><span>11:08</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Show! Assim o som fica bolado. E vai ter ensaio antes? Porque dá pra marcar um, né?<br><span>11:09</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Sim, a gente marca uns dois ensaios antes pra alinhar tudo. Vou vendo o espaço pra isso.<br><span>11:10</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Beleza, mano! Bora alinhar que vai ser da hora. Se precisar de mais alguma coisa, só chamar.<br><span>11:11</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Fechou então! Valeu por topar, mano! Bora fazer esse som daora e deixar a galera animada.<br><span>11:12</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Tamo junto, mano! Vai ser style, confia. Depois manda as coordenadas.<br><span>11:13</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>Opa, pode deixar! Te mantenho informado de tudo.<br><span>11:14</span></p>
+                </div>
+                
+                <div class="messagechat friendMessage">
+                    <p>Demorô, qualquer coisa tô na área. Só dar um toque!<br><span>11:15</span></p>
+                </div>
+                
+                <div class="messagechat myMessage">
+                    <p>To com um projeto para uma festa no esquema, irmão. Vai ser top demais, já to até empolgado!<br><span>11:22</span></p>
+                </div>
+                
+            </div>
+
+            <div class="chatInput">
+
+                <ion-icon name="happy-outline"></ion-icon>
+                <ion-icon name="attach-outline"></ion-icon>
+                <ion-icon name="mic-outline"></ion-icon>
+                <input type="text" placeholder="Escreva aqui">
+            </div>
+
         </div>
 
     </div>
+
+    <footer >
+       <a href="https://pt.wikipedia.org/wiki/Direito_autoral"> <p>Copyright © 2024 GigTime - Todos os direitos reservados<p> </a>
+    </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
