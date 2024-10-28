@@ -8,13 +8,21 @@
 </head>
 <body>
 
-    <div class="header">
-        <h1><img src="https://flaticons.net/icon.php?slug_category=miscellaneous&slug_icon=electric-guitar-01" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> GigTime</h1>
+    <header>
+                <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barra de Navegação Fixa</title>
+        
+    </head>
+    <body>
+        <nav class="navbar-fixa">
+                    <h1><img src="https://flaticons.net/icon.php?slug_category=miscellaneous&slug_icon=electric-guitar-01" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> GigTime</h1>
         <div>
             <button onclick="window.location.href='inicio.html'">Início</button>
             <button onclick="window.location.href='sair.html'">Sair</button>
         </div>
-    </div>
+        </nav>
+    </header>
 
     <div class="container">
         <div class="info">
@@ -23,21 +31,21 @@
                 <span>Adicionar Imagem</span>
                 <input type="file" id="profileImageInput" accept="image/*" style="display: none;">
             </div>
-            <p><strong>Nome do Estabelecimento:</strong> Bar do Zé</p>
-            <p><strong>Nome do Contratante:</strong> José da Silva</p>
-            <p><strong>Localização:</strong> Rua das Flores, 123, Centro</p>
+            <p><strong>Nome do Estabelecimento:</strong> Pagode do Didi</p>
+            <p><strong>Nome do Contratante:</strong> Bezerra da Silva</p>
+            <p><strong>Localização:</strong> R. Ulhôa Cintra, 39 - Santana, Recife - PE, 50010-020</p>
         </div>
     </div>
 
     <div class="container container-centralizado">
-        <h2>Informações sobre o Evento</h2>
-        <p>Descrição do evento, horário, tipo de música e outros detalhes importantes.</p>
+        <h2>Informações do Local</h2>
+        <p>O Bar do Zé é um estabelecimento familiar, voltado o lazer e divulgação da música nacional contemporânea. Tendo como foco divulgar artistas locais e comidas conterrâneas afrobrasileiras.</p>
     </div>
 
     <div class="container container-centralizado">
         <h2>Fotos do Local</h2>
         <div class="gallery-container">
-            <!-- Cada item da galeria pode ser clicado para abrir a imagem com zoom no modal -->
+            <!-- Cada imagem no modal tem zoom, é só clicar neles -->
             <a href="#modal1" class="gallery-item"><img src="https://picsum.photos/500?x=1" alt="Imagem 1" width="50" height="50"></a>
             <a href="#modal2" class="gallery-item"><img src="https://picsum.photos/500?x=2" alt="Imagem 2" width="50" height="50"></a>
             <a href="#modal3" class="gallery-item"><img src="https://picsum.photos/500?x=3" alt="Imagem 3" width="50" height="50"></a>
@@ -47,7 +55,7 @@
             <a href="#modal7" class="gallery-item"><img src="https://picsum.photos/500?x=7" alt="Imagem 7" width="50" height="50"></a>
             <a href="#modal8" class="gallery-item"><img src="https://picsum.photos/500?x=8" alt="Imagem 8" width="50" height="50"></a>
         </div>
-        <!-- Modais para zoom em cada imagem -->
+        <!-- Modais com o zoom nas imagens imagem -->
         <div id="modal1" class="modal">
             <div class="modal-content">
                 <button class="modal-close" onclick="window.location.href='#'">×</button>
@@ -94,13 +102,49 @@
             <div class="modal-content">
                 <button class="modal-close" onclick="window.location.href='#'">×</button>
                 <img src="https://picsum.photos/500?x=8" alt="Imagem 8">
-            </div>div
+            </div>
     </div>
 
-    <div class="container container-centralizado">
+    <div class="comentarios-container-centralizado">
         <h2>Feedback e Comentários</h2>
         <p>Seção para avaliações e comentários sobre eventos passados.</p>
-    </div>
+        <div class="comentarios-container-centralizado">
+            <div class="comentario">
+                <img src="https://i.imgur.com/5ffKwMG.jpeg" alt="Foto de Maria Silva">
+                <div class="comentario-box">
+                    <strong>Maria Silva</strong>
+                    <p>Adorei o ambiente e a música ao vivo! O pagode estava incrível e animou a noite. Voltarei com certeza!</p>
+                </div>
+            </div>
+            <div class="comentario">
+                <img src="https://i.imgur.com/d7j7eLu.jpeg" alt="Foto de João Souza">
+                <div class="comentario-box">
+                    <strong>João Souza</strong>
+                    <p>Excelente bar para quem gosta de pagode! Atendimento rápido e músicos de primeira. A energia do lugar é contagiante.</p>
+                </div>
+            </div>
+            <div class="comentario">
+                <img src="https://i.imgur.com/RSzEYqS.jpeg" alt="Foto de Patrícia Oliveira">
+                <div class="comentario-box">
+                    <strong>Patrícia Oliveira</strong>
+                    <p>Ótima experiência! Ambiente acolhedor, boas bebidas e música ao vivo de qualidade. Recomendo para todos os fãs de pagode.</p>
+                </div>
+            </div>
+            <div class="comentario">
+                <img src="https://i.imgur.com/pBTkvGl.jpeg" alt="Foto de Ricardo Lima">
+                <div class="comentario-box">
+                    <strong>Ricardo Lima</strong>
+                    <p>O bar tem uma vibe única. As apresentações de pagode são muito boas, e os preços são justos. Ideal para ir com amigos.</p>
+                </div>
+            </div>
+            <div class="comentario">
+                <img src="https://i.imgur.com/ONJ9Mm4.jpeg" alt="Foto de Fernanda Costa">
+                <div class="comentario-box">
+                    <strong>Fernanda Costa</strong>
+                    <p>Adorei o show de pagode! O ambiente é bem decorado e os funcionários são atenciosos. Um dos melhores bares que já fui!</p>
+                </div>
+            </div>
+
 
 </body>
 </html>
