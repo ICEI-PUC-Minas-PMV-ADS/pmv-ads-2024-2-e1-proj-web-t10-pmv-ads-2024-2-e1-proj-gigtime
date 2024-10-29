@@ -10,6 +10,7 @@
 
 .backgroundbody {
     background-color: var(--backgroundColor);
+    padding-top: 70px;
 }
 
 .container {
@@ -246,3 +247,7 @@
     
     background-color: var(--primaryColor);
 }*/
+
+.navbar{
+    background: var(--primaryColor);
+}
