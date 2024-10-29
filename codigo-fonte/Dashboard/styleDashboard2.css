@@ -179,7 +179,7 @@
                 position: relative;
                 padding-left: 60px;
             }
-        .comentario img {
+       .comentario img {
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
@@ -189,14 +189,14 @@
                 top: 0;
                 border: 2px solid #e55c1e;
             }
-        .comentario-box {
+       .comentario-box {
                 background-color: #FAF9F6;
                 padding: 15px;
                 border-radius: 8px;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 position: relative;
             }
-        .comentario-box:before {
+         .comentario-box:before {
                 content: "";
                 position: absolute;
                 left: 45px;
