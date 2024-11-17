@@ -28,6 +28,7 @@
 }
 
 body {
+    position: relative;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -41,10 +42,12 @@ body {
     width: calc(100vw - 80px);
     max-width: 100%;
     height: calc(100vh - 40px);
+    /* height: 130vh !important; */
     background: var(--prototypegray);
     /* box-shadow: 0 1px 1px 0 gray;  */
     display: flex;
     padding-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .container .leftside{
@@ -169,6 +172,12 @@ body {
     font-size: 1.0em;
     font-weight: 150px;
     color:black;
+    width: calc(100% - 40px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 20px;
+
 }
 
 
@@ -193,13 +202,14 @@ body {
 .message p{
     display:-webkit-box;
     color: var(--fadingblack);
-    line-clamp: 1;
+    -webkit-line-clamp: 1;
     font-size: 1em;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis !important;
     word-wrap: break-word;
     max-height: 28px;
+    width: calc(100% - 30px);
 }
 
 .message b{
@@ -371,15 +381,14 @@ body {
     font-size: 1em;
 }
 
-footer{
-
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     display: flex;
     background-color: var(--prototipation2);
-    position: absolute;
-    align-items: left;
+    align-items: center;
     justify-content: left;
-    width: 100%;
-    margin-top: 100vh;
     padding: 10px;
 }
 
@@ -391,7 +400,6 @@ footer a{
     text-decoration: none;
     color: inherit;
 }
-
 
 
 
