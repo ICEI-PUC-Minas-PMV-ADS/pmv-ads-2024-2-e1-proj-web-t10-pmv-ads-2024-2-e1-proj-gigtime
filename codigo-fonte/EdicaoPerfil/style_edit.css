@@ -1,0 +1,112 @@
+:root {
+    --backgroundColor: #FAF9F6;
+    --primaryColor: #e55c1e;
+    --secondaryColor: #484f9f;
+    --accentColor: #f7b801;
+    --textColor: #070200;
+    --prototipation1: #EBEBEB;
+    --prototipation2: #CBCBCB;
+}
+
+
+#banner_input {
+    display: none; /* Esconde o input */
+}
+
+.banner {
+    width: 1546px;
+    height: 423px;
+    background-color: var(--prototipation1);
+    color: var(--primaryColor);
+    border: 1px dashed var(--primaryColor);
+    border-radius: 10px;
+    
+    overflow: hidden;
+    margin-top: 4%;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+}
+
+.banner:hover {
+    background-color: var(--prototipation2);
+}
+
+.bannerimg img {
+    width: 100% !important; /* Garante que as imagens se ajustem ao container */
+    
+}
+
+#video_input {
+    display: none; /* Esconde o input */
+}
+
+.video {
+    width: 400px;
+    height: 400px;
+    background-color: var(--prototipation1);
+    color: var(--primaryColor);
+    border: 1px dashed var(--primaryColor);
+    border-radius: 10px;
+    
+    overflow: hidden;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+}
+
+.video:hover {
+    background-color: var(--prototipation2);
+}
+
+.videomovie video {
+    width: 100%; /* Garante que o vídeo se ajuste ao container */
+    height: 100%; /* Garante que o vídeo ocupe toda a altura do container */
+    object-fit: cover; /* Ajusta o vídeo para cobrir todo o espaço sem distorcer */
+}
+
+#icon_input {
+    display: none; /* Esconde o input */
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 12rem;
+    background-color: var(--prototipation1);
+    color: var(--primaryColor);
+    border: 1px dashed var(--primaryColor);
+    
+    overflow: hidden;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+}
+
+.icon:hover {
+    background-color: var(--prototipation2);
+}
+
+.iconimg img {
+    width: 100% !important; /* Garante que as imagens se ajustem ao container */
+    
+}
+
+

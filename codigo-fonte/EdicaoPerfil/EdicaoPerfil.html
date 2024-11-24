@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_edit.css">
+    <script src="app.js" defer></script> <!-- Adicionei "defer" para carregar o script após o HTML -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styleAnuncios.css">
+    <title>Edit-GigTime</title>
+</head>
+
+<body>
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-expand-sm fixed-top bg-gig-pr" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Home/home.html">
+                <img src="https://flaticons.net/icon.php?slug_category=miscellaneous&slug_icon=electric-guitar-01"
+                    alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                GigTime
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ms-auto">
+                    <!-- Container com os links customizados conforme status de login (logado ou deslogado) -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="text-center">
+        <div class="row">
+            <div class="col-12">
+                <center>
+                    <!--Input para banner-->
+                    <label class="banner" for="banner_input" tabindex="0">
+                        <span class="bannerimg" style="width: 100%;"></span>
+                    </label>
+
+                    <input type="file" name="banner_input" id="banner_input" accept="image/*">
+                    <br>
+                </center>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <center>
+                        <!--Input para icon-->
+                        <label class="icon" for="icon_input" tabindex="0">
+                            <span class="iconimg"></span>
+                        </label>
+
+                        <input type="file" name="icon_input" id="icon_input" accept="image/*">
+                        <br>
+                    </center>
+                </div>
+
+
+
+                <div class="col-sm-12 col-lg-6">
+                    <input class="form-control" type="text" placeholder="Nome" aria-label="default input example">
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <input class="form-control" type="text" placeholder="@Usuário" aria-label="default input example">
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                    <br>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Estilo Musical</option>
+                        <option value="1">Pop</option>
+                        <option value="2">Rock</option>
+                        <option value="3">Rap</option>
+                        <option value="4">Jazz</option>
+                        <option value="5">Blues</option>
+                        <option value="6">Reggae</option>
+                        <option value="7">Sertanejo</option>
+                        <option value="8">Eletrônica</option>
+                        <option value="9">Música clássica</option>
+                    </select>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <br>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Estado</option>
+                        <option value="27">AC</option>
+                        <option value="1">AL</option>
+                        <option value="2">AP</option>
+                        <option value="3">AM</option>
+                        <option value="4">BA</option>
+                        <option value="5">CE</option>
+                        <option value="6">DF</option>
+                        <option value="7">ES</option>
+                        <option value="8">GO</option>
+                        <option value="9">MA</option>
+                        <option value="10">MT</option>
+                        <option value="11">MS</option>
+                        <option value="12">MG</option>
+                        <option value="13">PA</option>
+                        <option value="14">PB</option>
+                        <option value="15">PR</option>
+                        <option value="16">PE</option>
+                        <option value="17">PI</option>
+                        <option value="18">RJ</option>
+                        <option value="19">RN</option>
+                        <option value="20">RS</option>
+                        <option value="21">RO</option>
+                        <option value="22">RR</option>
+                        <option value="23">SC</option>
+                        <option value="24">SP</option>
+                        <option value="25">SE</option>
+                        <option value="26">TO</option>
+                    </select>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <br>
+                    <input class="form-control" type="text" placeholder="Número" aria-label="default input example">
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <br>
+                    <input class="form-control" type="text" placeholder="Cidade" aria-label="default input example">
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <br>
+                    <label for="exampleFormControlTextarea1" class="form-label">Escreva um pouco sobre você</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <br>
+                    <label for="exampleFormControlTextarea1" class="form-label">Descreva suas Habilidades</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <center>
+                    <div class="col-12">
+                        <br>
+                        <!--Input para banner-->
+                        <label class="video" for="video_input" tabindex="0">
+                            <span class="videomovie" style="width: 100%;"></span>
+                        </label>
+
+                        <input type="file" name="video_input" id="video_input" accept="video/*">
+                        <br>
+                </center>
+                <div class="col-lg-12">
+                    <br>
+                    <button type="button" class="btn btn-danger" id="clear_button">Limpar Formulário</button>
+                    <button type="button" class="btn btn-primary" id="salvar_button">Salvar</button>
+                </div>
+            </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous">
+                </script>
+</body>
+
+</html>

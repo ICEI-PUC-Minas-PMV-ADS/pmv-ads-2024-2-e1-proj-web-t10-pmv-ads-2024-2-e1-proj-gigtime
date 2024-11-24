@@ -10,7 +10,11 @@
 
 .backgroundbody {
     background-color: var(--backgroundColor);
+<<<<<<< HEAD:codigo-fonte/Dashboard/styledashboard.css
     padding-top: 70px;
+=======
+    padding-top: 5rem;
+>>>>>>> ks:codigo-fonte/styledashboard.css
 }
 
 .container {
@@ -21,6 +25,20 @@
         "feed candidato";
     gap: 15px;
     justify-content: center;
+}
+
+@media (max-width: 997px) {
+    .container {
+        grid-template-areas:
+            "perfil"
+            "ganho"
+            "proposta"
+            "feed"
+            "candidato";
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .ganhodash {
