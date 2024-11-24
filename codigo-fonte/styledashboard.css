@@ -23,6 +23,20 @@
     justify-content: center;
 }
 
+@media (max-width: 997px) {
+    .container {
+        grid-template-areas:
+            "perfil"
+            "ganho"
+            "proposta"
+            "feed"
+            "candidato";
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .ganhodash {
     width: 20rem;
     height: 3rem;
