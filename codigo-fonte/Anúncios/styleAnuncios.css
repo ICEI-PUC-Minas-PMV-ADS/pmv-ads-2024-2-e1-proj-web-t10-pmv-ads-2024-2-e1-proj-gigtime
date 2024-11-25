@@ -43,8 +43,34 @@
 
 
 .pt-6 {
-    padding-top: 5rem; /* Custom value for larger padding */
+    padding-top: 3.5rem; /* Custom value for larger padding */
   }
 .pt-7 {
-    padding-top: 6rem; /* Custom value for even more padding */
+    padding-top: 4rem; /* Custom value for even more padding */
   }
+.mt-6 {
+    margin-top: 3.5rem; /* Custom value for larger margin */
+  }
+.mt-7 {
+    margin-top: 4rem; /* Custom value for even more margin */
+  }
+
+  .card-img-top {
+    width: 100%;          /* Ocupe 100% da largura do contêiner */
+    height: auto;        /* Altura fixa de 200px (ou ajuste como preferir) */
+    aspect-ratio: 1/1;
+    object-fit: cover;    /* Corta as bordas para manter a proporção */
+  }  
+
+
+h5 i {
+    transition: transform 0.2s ease; /* animação suave de 0.3 segundos */
+ }
+  /* Inicialmente, o ícone está apontando para baixo */
+h5.collapsed i {
+  transform: rotate(180deg); /* Inverte o caret */
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
