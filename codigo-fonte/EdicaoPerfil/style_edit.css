@@ -14,23 +14,20 @@
 }
 
 .banner {
-    width: 1546px;
-    height: 423px;
+    width: 100%;
+    max-width: 1500px; /* Define um tamanho máximo */
+    height: 400px; /* Ajusta a altura proporcionalmente */
     background-color: var(--prototipation1);
     color: var(--primaryColor);
     border: 1px dashed var(--primaryColor);
     border-radius: 10px;
-    
     overflow: hidden;
     margin-top: 4%;
-    
-    
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
-    
     transition: color 300ms ease-in-out, background 300ms ease-in-out;
 }
 
@@ -39,8 +36,8 @@
 }
 
 .bannerimg img {
-    width: 100% !important; /* Garante que as imagens se ajustem ao container */
-    
+    width: 100%; /* Responsivo: ocupa o espaço total do container */
+    height: auto; /* Mantém a proporção */
 }
 
 #video_input {
@@ -48,21 +45,19 @@
 }
 
 .video {
-    width: 400px;
-    height: 400px;
+    width: 100%; /* O vídeo ocupa 100% da largura do container */
+    max-width: 400px; /* Limita a largura máxima a 400px */
+    aspect-ratio: 16 / 9; /* Define a proporção do vídeo (largura/altura) */
     background-color: var(--prototipation1);
     color: var(--primaryColor);
     border: 1px dashed var(--primaryColor);
     border-radius: 10px;
-    
     overflow: hidden;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
-    
     transition: color 300ms ease-in-out, background 300ms ease-in-out;
 }
 
@@ -71,9 +66,10 @@
 }
 
 .videomovie video {
-    width: 100%; /* Garante que o vídeo se ajuste ao container */
-    height: 100%; /* Garante que o vídeo ocupe toda a altura do container */
-    object-fit: cover; /* Ajusta o vídeo para cobrir todo o espaço sem distorcer */
+    width: 100%; /* O vídeo ocupa toda a largura disponível */
+    height: 100%; /* A altura é definida automaticamente pela proporção */
+    object-fit: cover; /* Garante que o vídeo preencha o espaço sem distorcer */
+    border-radius: 10px; /* Mantém o arredondamento no vídeo */
 }
 
 #icon_input {
@@ -109,4 +105,23 @@
     
 }
 
+@media (max-width: 768px) {
+    .banner {
+        max-width: 90%; /* Reduz o tamanho do banner para caber em telas pequenas */
+    }
+
+    .video {
+        max-width: 300px; /* Reduz o tamanho do vídeo */
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        max-width: 100%; /* Banner ocupa toda a largura da tela */
+    }
+
+    .video {
+        max-width: 250px; /* Ajuste para telas ainda menores */
+    }
+}
 
