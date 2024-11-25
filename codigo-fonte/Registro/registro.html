@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GigTime - Registro</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/global.css">
+  <link rel="stylesheet" href="styleReg.css">
+</head>
+<body class="d-flex bg-light justify-content-center align-items-center min-vh-100">
+
+  <!-- Tela de Registro -->
+  <div class="card shadow mx-3 p-4 login-card">
+    <h3 class="text-center mb-4">Registrar</h3>
+    <div class="d-flex justify-content-center mb-3">
+      <img id="profilePic" src="/userImages/defaultUser.jpg" alt="Foto de perfil" width="110" height="110" class="shadow object-fit-cover rounded-circle border border-2">
+    </div>
+    <form id="registerForm" novalidate>
+      <!-- Foto de Perfil -->
+      <div class="mb-3">
+        <label for="profilePicLink" class="form-label">Foto de Perfil</label>
+        <input type="text" class="form-control" id="profilePicLink" placeholder="Insira um link para sua imagem de perfil. Para apagar, envie sem um link." required>
+        <button type="button" class="btn btn-primary my-2" id="sendImgLink">Enviar</button>
+      </div>
+      <!-- Nome de Usuário -->
+      <div class="mb-3">
+        <label for="username" class="form-label">Nome de Usuário</label>
+        <input type="text" class="form-control" id="username" placeholder="Escolha um nome de usuário" required>
+        <div class="invalid-feedback">Por favor, insira um nome de usuário único.</div>
+      </div>
+      <!-- Nome -->
+      <div class="mb-3">
+        <label for="name" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="name" placeholder="Escreva seu nome" required>
+        <div class="invalid-feedback">Por favor, insira um nome.</div>
+      </div>
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+        <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
+      </div>
+      <!-- Telefone -->
+      <div class="mb-3">
+        <label for="phone" class="form-label">Telefone</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Digite seu telefone" required>
+        <div class="invalid-feedback">Por favor, insira um telefone válido.</div>
+      </div>
+      <!-- Seleção de Perfil -->
+      <div class="mb-3">
+        <label for="role" class="form-label">Perfil</label>
+        <select id="role" class="form-select" required>
+          <option value="" selected>Escolha seu perfil...</option>
+          <option value="Músico">Músico</option>
+          <option value="Contratante">Contratante</option>
+        </select>
+        <div class="invalid-feedback">Por favor, selecione seu perfil.</div>
+      </div>
+      <!-- Gêneros músicas -->
+      <div class="mb-3">
+        <label for="genres" class="form-label">Gêneros</label>
+        <div id="genres">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="genreSertanejo" value="Sertanejo">
+            <label class="form-check-label" for="genreSertanejo">Sertanejo</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="genreRock" value="Rock">
+            <label class="form-check-label" for="genreRock">Rock</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="genreMPB" value="MPB">
+            <label class="form-check-label" for="genreMPB">MPB</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="genrePop" value="Pop">
+            <label class="form-check-label" for="genrePop">Pop</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="genreForró" value="Forró">
+            <label class="form-check-label" for="genreForró">Forró</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="genreJazz" value="Jazz">
+            <label class="form-check-label" for="genreJazz">Jazz</label>
+          </div>
+        </div>
+        <div class="invalid-feedback">Por favor, selecione pelo menos um gênero.</div>
+      </div>      
+      <!-- Estado -->
+      <div class="mb-3">
+        <label for="state" class="form-label">Estado</label>
+        <select id="state" class="form-select" required>
+          <option value="" selected>Escolha seu estado...</option>
+          <option value="AC">AC</option>
+          <option value="AL">AL</option>
+          <option value="AP">AP</option>
+          <option value="AM">AM</option>
+          <option value="BA">BA</option>
+          <option value="CE">CE</option>
+          <option value="DF">DF</option>
+          <option value="ES">ES</option>
+          <option value="GO">GO</option>
+          <option value="MA">MA</option>
+          <option value="MT">MT</option>
+          <option value="MS">MS</option>
+          <option value="MG">MG</option>
+          <option value="PA">PA</option>
+          <option value="PB">PB</option>
+          <option value="PR">PR</option>
+          <option value="PE">PE</option>
+          <option value="PI">PI</option>
+          <option value="RJ">RJ</option>
+          <option value="RN">RN</option>
+          <option value="RS">RS</option>
+          <option value="RO">RO</option>
+          <option value="RR">RR</option>
+          <option value="SC">SC</option>
+          <option value="SP">SP</option>
+          <option value="SE">SE</option>
+          <option value="TO">TO</option>
+        </select>
+        <div class="invalid-feedback">Por favor, selecione seu perfil.</div>
+      </div>
+      <!-- Cidade -->
+      <div class="mb-3">
+        <label for="city" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="city" placeholder="Escreva sua cidade" required>
+        <div class="invalid-feedback">Por favor, insira uma cidade.</div>
+      </div>
+      <!-- Senha -->
+      <div class="mb-3">
+        <label for="password" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="password" placeholder="Digite uma senha" required>
+        <div class="invalid-feedback">Por favor, insira uma senha.</div>
+      </div>
+      <!-- Confirmação de Senha -->
+      <div class="mb-3">
+        <label for="confirmPassword" class="form-label">Confirme sua Senha</label>
+        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme sua senha" required>
+        <div class="invalid-feedback">As senhas não coincidem.</div>
+      </div>
+      <!-- Botão de Registro -->
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Registrar</button>
+      </div>
+      <!-- Link para Login -->
+      <div class="text-center mt-3">
+        <a href="/Login/login.html" class="text-decoration-none">Já tem uma conta? Login</a>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/global.js"></script>
+  <script src="scriptRegistro.js"></script>
+</body>
+</html>
