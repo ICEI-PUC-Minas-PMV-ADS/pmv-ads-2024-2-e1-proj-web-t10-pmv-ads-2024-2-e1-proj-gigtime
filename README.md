@@ -14,7 +14,6 @@ A GigTime é uma plataforma que busca facilitar a conexão entre músicos e cont
 * Jefferson Luiz Mendonça da Silva
 * Kauã Eduardo Silva
 * Lucas Carvalho de Oliveira
-* Tais Rocha Nogueira
 * William Rocha Leal Viana
 
 ## Orientador
