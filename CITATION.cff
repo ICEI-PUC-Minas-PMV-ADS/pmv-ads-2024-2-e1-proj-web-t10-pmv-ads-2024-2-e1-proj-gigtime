@@ -1,0 +1,22 @@
+cff-version: 1.0.1
+message: Sistema para planejamento de viagens
+title: Mochileiros
+authors:
+  - family-names: Menezes Matias da Silva
+    given-names: João Pedro
+  - family-names: Fonseca Amorim
+    given-names: Igor 
+  - family-names: Almeida Dias 
+    given-names: Luiz Fernando 
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: De Nardin
+    given-names: Luciana
+keywords:
+  - viagens
+  - mochileiros
+  - gastos
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-06-26
