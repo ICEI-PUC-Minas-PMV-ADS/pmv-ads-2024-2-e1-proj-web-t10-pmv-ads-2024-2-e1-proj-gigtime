@@ -33,7 +33,7 @@ navbarLinks.forEach(link => {
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
             window.scrollTo({
-                top: targetElement.offsetTop - 50, // Ajuste para compensar a altura da navbar fixa
+                top: targetElement.offsetTop - 50, // Aqui ajusta para compensar a altura da navbar
                 behavior: 'smooth'
             });
         }
