@@ -35,9 +35,9 @@ a {
 
 .header__wrapper header {
   width: 100%;
-  background: url("https://i.postimg.cc/NGp7pc90/Foto-5.png") no-repeat 50% 20% / cover;
   min-height: calc(100px + 15vw);
-  margin-top: 30px
+  max-height: calc(250px + 10vw);
+  overflow: hidden;
 }
 
 .header__wrapper .cols__container .left__col {
