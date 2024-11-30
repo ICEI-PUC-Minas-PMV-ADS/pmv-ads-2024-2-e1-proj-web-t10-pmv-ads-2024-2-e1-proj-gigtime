@@ -1,22 +1,24 @@
 cff-version: 1.0.1
-message: Sistema para planejamento de viagens
-title: Mochileiros
+message: Site para conexão entre músicos e contratantes
+title: GigTime
 authors:
-  - family-names: Menezes Matias da Silva
-    given-names: João Pedro
-  - family-names: Fonseca Amorim
-    given-names: Igor 
-  - family-names: Almeida Dias 
-    given-names: Luiz Fernando 
-  - name-suffix: Professora
+  - family-names: Carvalho de Oliveira
+    given-names: Lucas
+  - family-names: 
+    given-names: Kauã 
+  - family-names:  
+    given-names: Jefferson
+  - family-names: 
+    given-names: William 
+  - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: De Nardin
-    given-names: Luciana
+    family-names: Azevedo Nigri do Carmo
+    given-names: Humberto
 keywords:
-  - viagens
-  - mochileiros
-  - gastos
-repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros
+  - Música
+  - Gigtime
+  - Eventos
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2024-06-26
