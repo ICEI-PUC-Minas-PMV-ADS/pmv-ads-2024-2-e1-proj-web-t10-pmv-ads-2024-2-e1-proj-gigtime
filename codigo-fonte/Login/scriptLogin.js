@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
       sessionStorage.setItem('loggedInUser', JSON.stringify(user));
 
       // Redireciona para a página de anúncios
-      const redirectionPath = '/Anúncios/anuncios.html';
+      const redirectionPath = '../Anúncios/anuncios.html';
       window.location.href = redirectionPath;
   } else {
       alert('Usuário ou senha inválidos!');

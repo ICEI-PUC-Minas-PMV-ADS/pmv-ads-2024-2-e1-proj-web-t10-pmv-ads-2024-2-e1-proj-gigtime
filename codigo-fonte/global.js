@@ -27,19 +27,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 sessionStorage.setItem('clickedUser', loggedInUser);
         
             // Redireciona para a página de perfil
-            window.location.href = '/Perfil/perfil.html';
+            window.location.href = '../Perfil/perfil.html';
         });
 
         // Adiciona evento de logout
         document.getElementById('logoutLink').addEventListener('click', function () {
             sessionStorage.removeItem('loggedInUser'); // Remove o usuário logado
-            window.location.href = '/Home/home.html'; // Redireciona para a página inicial
+            window.location.href = '../Home/home.html'; // Redireciona para a página inicial
         });
     } else {
         // Exibe links padrão para visitantes
         navbar.innerHTML = `
-      <a class="nav-link me-3" href="/Login/login.html">Entrar</a>
-      <a class="nav-link me-3" href="/Registro/registro.html">Inscrever-se</a>
+      <a class="nav-link me-3" href="../Login/login.html">Entrar</a>
+      <a class="nav-link me-3" href="../Registro/registro.html">Inscrever-se</a>
     `;
     }
 }});

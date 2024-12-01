@@ -7,6 +7,7 @@ window.addEventListener('load', function () {
       // Preenche os dados do perfil com as informações do usuário
       document.getElementById('profilePic').src = user.profilePicLink;
       document.getElementById('name').textContent = user.name;
+      document.getElementById('badges').textContent = user.badges.join(' / ');
       document.getElementById('email').textContent = user.email;
       document.getElementById('phone').textContent = user.phone;
       document.getElementById('role').textContent = user.role;
@@ -26,5 +27,31 @@ window.addEventListener('load', function () {
     } else {
       alert('Usuário não encontrado!');
     }
+  });
+
+  // Seleciona as imagens e o modal
+  const photos = document.querySelectorAll('.photos img');
+  const modal = document.getElementById('modal');
+  const modalImg = document.getElementById('modal-img');
+  const closeBtn = document.getElementById('close-btn');
+
+  // Exibe a imagem ampliada no modal
+  photos.forEach(photo => {
+      photo.addEventListener('click', () => {
+          modalImg.src = photo.src;
+          modal.classList.add('active');
+      });
+  });
+
+  // Fecha o modal
+  closeBtn.addEventListener('click', () => {
+      modal.classList.remove('active');
+  });
+
+  // Fecha o modal se clicar fora da imagem
+  modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+          modal.classList.remove('active');
+      }
   });
   

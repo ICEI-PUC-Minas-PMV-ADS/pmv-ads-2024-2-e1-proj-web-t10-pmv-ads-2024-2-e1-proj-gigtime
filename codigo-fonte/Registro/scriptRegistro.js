@@ -9,7 +9,7 @@ document.getElementById('sendImgLink').addEventListener('click', function () {
   
   } else {
     //Carrega a imagem padrão
-    profilePic.src = '/userImages/defaultUser.jpg';
+    profilePic.src = '../userImages/defaultUser.jpg';
   }
 });
 
@@ -105,5 +105,5 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
     sessionStorage.setItem('users', JSON.stringify(users));
   
     alert('Registro realizado com sucesso!');
-    window.location.href = '/Login/login.html'; // Ajuste o caminho conforme necessário
+    window.location.href = '../Login/login.html'; // Ajuste o caminho conforme necessário
   });  
