@@ -25,7 +25,7 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
     const city = document.getElementById('city').value.trim();
     const genres = Array.from(document.querySelectorAll('#genres input[type="checkbox"]:checked'))
                                 .map(checkbox => checkbox.value);
-    const profilePicLink = document.getElementById('profilePicLink').value.trim() || '/userImages/defaultUser.jpg';
+    const profilePicLink = document.getElementById('profilePicLink').value.trim() || '../userImages/defaultUser.jpg';
     const password = document.getElementById('password').value.trim();
     const confirmPassword = document.getElementById('confirmPassword').value.trim();
 
