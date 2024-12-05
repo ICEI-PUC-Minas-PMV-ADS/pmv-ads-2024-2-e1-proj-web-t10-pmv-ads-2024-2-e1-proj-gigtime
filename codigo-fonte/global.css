@@ -1,7 +1,8 @@
 :root{
     --backgroundColor: #fcf6f3;
-    --primaryColor: #e55c1e;
+    --primaryColor: #ff5629;
     --secondaryColor: #484f9f;
+    --tertiaryColor: #5d3a76;
     --accentColor: #f7b801;
     --textColor: #070200;
   }
@@ -34,6 +35,9 @@
   .bg-gig-sc{
     background-color: var(--secondaryColor);
   }
+  .bg-gig-tr{
+    background-color: var(--tertiaryColor);
+  }
   .bg-gig-ac{
     background-color: var(--accentColor);
   }
@@ -46,6 +50,9 @@
   }
   .text-gig-sc{
     color: var(--secondaryColor);
+  }
+  .text-gig-tr{
+    color: var(--tertiaryColor);
   }
   .text-gig-ac{
     color: var(--accentColor);
