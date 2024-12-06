@@ -72,7 +72,7 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 | <div align=center>Os usuários devem poder se cadastrar na plataforma</div> | Alta |  
+| RF-01 |<div align=center>Os usuários devem poder se cadastrar na plataforma</div>| Alta |  
 | RF-02 | <div align=center>Os usuários deverão poder filtrar músicos/contratantes com base em gêneros musicais, localidade e avaliação média.</div>| Alta |
 | RF-03 | <div align=center>Os usuários devem poder se comunicar por chat através da</br>plataforma.</div>| Baixa | 
 | RF-04 | <div align=center>Perfis de usuários devem exibir avaliações e feedbacks de forma</br>pública.</div>| Alta | 
