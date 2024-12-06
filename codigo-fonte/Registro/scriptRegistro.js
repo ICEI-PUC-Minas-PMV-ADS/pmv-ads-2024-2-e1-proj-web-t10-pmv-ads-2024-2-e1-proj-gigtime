@@ -26,6 +26,7 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
     const genres = Array.from(document.querySelectorAll('#genres input[type="checkbox"]:checked'))
                                 .map(checkbox => checkbox.value);
     const profilePicLink = document.getElementById('profilePicLink').value.trim() || '../userImages/defaultUser.jpg';
+    const songLink = document.getElementById('songLink').value.trim();
     const password = document.getElementById('password').value.trim();
     const confirmPassword = document.getElementById('confirmPassword').value.trim();
 
@@ -91,6 +92,7 @@ document.getElementById('registerForm').addEventListener('submit', function (eve
       badges: ["Novato"],
       profilePicLink,
       bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+      songLink,
       userPicsLinks: [
         "https://picsum.photos/600/1000?x=1",
         "https://picsum.photos/600/1000?x=2",

@@ -51,4 +51,11 @@ users.forEach(user => {
   } else if (user.role === 'Contratante') {
   anunciosContrat.insertAdjacentHTML('beforeend', card);
   }
+
+  const link = document.getElementById(user.username);
+  link.addEventListener('click', (event) => {
+    event.preventDefault(); // Evita redirecionamento imediato
+    sessionStorage.setItem('clickedUser', JSON.stringify(user)); // Armazena os dados do usuário
+    window.location.href = '../Perfil/perfil.html'; // Redireciona para a página de perfil
+  });
 });

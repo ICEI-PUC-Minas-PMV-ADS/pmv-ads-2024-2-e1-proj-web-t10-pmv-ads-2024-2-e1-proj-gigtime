@@ -16,7 +16,7 @@ a {
 .header__wrapper header {
   width: 100%;
   min-height: calc(100px + 15vw);
-  max-height: calc(250px + 10vw);
+  max-height: calc(180px + 8vw);
   overflow: hidden;
 }
 
@@ -194,7 +194,7 @@ a {
     gap: 30px;
   }
   .header__wrapper .cols__container .right__col .photos {
-    height: 365px;
+    height: 443px !important;
     overflow: auto;
     padding: 0 0 30px;
   }
@@ -312,7 +312,7 @@ a {
         }
 
         .photos img {
-            width: 100%;
+            width: 98%;
             height: 150px;
             object-fit: cover;
             cursor: pointer;
@@ -321,7 +321,7 @@ a {
         }
 
         .photos img:hover {
-            transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+            transform: scale(1.03); /* Efeito de zoom ao passar o mouse */
         }
 
         /* Responsividade */
@@ -335,7 +335,6 @@ a {
         @media (max-width: 480px) {
             .photos {
                 grid-template-columns: 1fr; /* Para telas muito pequenas, exibe 1 coluna */
-                grid-template-rows: repeat(6, 1fr); /* 6 linhas em 1 coluna */
             }
         }
 

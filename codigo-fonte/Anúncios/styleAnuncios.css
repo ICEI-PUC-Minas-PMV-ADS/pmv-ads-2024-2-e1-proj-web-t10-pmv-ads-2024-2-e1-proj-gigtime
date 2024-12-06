@@ -15,6 +15,11 @@ h5.collapsed i {
   transform: rotate(180deg); /* Inverte o caret */
 }
 
+select {
+  max-height: 200px;
+  position: relative;
+}
+
 .nav-link:hover {
   color: rgb(255, 255, 255);
 }

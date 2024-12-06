@@ -60,6 +60,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["Show Man"],
             profilePicLink: 'https://i.pinimg.com/originals/5e/0e/1f/5e0e1f83ac610406d50fa9c92296e640.jpg',
             bannerPicLink: 'https://i0.wp.com/setthetape.com/wp-content/uploads/2020/07/Sonic-the-Hedgehog-29-HEADER.jpg?fit=1200%2C460&ssl=1',
+            songLink: 'https://youtu.be/G-i8HYi1QH0',
             userPicsLinks: [
                 "https://64.media.tumblr.com/2d0cbe7960d6566a0792590a03a1cb5e/775f6ee57fa4919f-4b/s1280x1920/00a1fa3b9240d4449eabe387be91d15f0ff450cc.jpg",
                 "https://m.gjcdn.net/fireside-post-image/900/34713876-84b2ivjg-v4.webp",
@@ -83,6 +84,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["Show Man"],
             profilePicLink: 'https://i.postimg.cc/2591QbWr/pfp.jpg',
             bannerPicLink: 'https://i.postimg.cc/sXt1LkKL/highlight-6.png',
+            songLink: 'https://youtu.be/xKpCkPFCmgE',
             userPicsLinks: [
                 "https://i.postimg.cc/906TG4vr/imcNZI8.png",
                 "https://i.postimg.cc/qBh3GLQY/highlight-2.png",
@@ -106,6 +108,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["Top Contratante"],
             profilePicLink: 'https://images.pexels.com/photos/3054533/pexels-photo-3054533.jpeg?auto=compress&cs=tinysrgb&w=600',
             bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            songLink: '',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
                 "https://picsum.photos/600/1000?x=2",
@@ -127,8 +130,9 @@ if (!sessionStorage.getItem('users')) {
             rating: 4.8,
             genres: ["Rock", "MPB"],
             badges: ["Estrela em Ascensão"],
-            profilePicLink: 'https://images.pexels.com/photos/379962/pexels-photo-379962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-            bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            profilePicLink: 'https://images.pexels.com/photos/379962/pexels-photo-379962.jpeg?cs=tinysrgb&w=1260&h=750&dpr=1',
+            bannerPicLink: 'https://picsum.photos/1900/900?x=1',
+            songLink: '',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
                 "https://picsum.photos/600/1000?x=2",
@@ -152,6 +156,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["Jazz Lover"],
             profilePicLink: 'https://images.pexels.com/photos/8191522/pexels-photo-8191522.jpeg?auto=compress&cs=tinysrgb&w=600',
             bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            songLink: '',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
                 "https://picsum.photos/600/1000?x=2",
@@ -175,6 +180,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["Melhor Produtor"],
             profilePicLink: 'https://images.pexels.com/photos/2531551/pexels-photo-2531551.jpeg?auto=compress&cs=tinysrgb&w=600',
             bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            songLink: '',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
                 "https://picsum.photos/600/1000?x=2",
@@ -198,6 +204,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["MPB Queen"],
             profilePicLink: 'https://images.pexels.com/photos/17411646/pexels-photo-17411646/free-photo-of-cidade-meio-urbano-ensolarado-moda.jpeg?auto=compress&cs=tinysrgb&w=600',
             bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            songLink: '',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
                 "https://picsum.photos/600/1000?x=2",
@@ -221,6 +228,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["Melhor Produtor"],
             profilePicLink: 'https://images.pexels.com/photos/1498335/pexels-photo-1498335.jpeg?auto=compress&cs=tinysrgb&w=600',
             bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            songLink: '',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
                 "https://picsum.photos/600/1000?x=2",
@@ -244,6 +252,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["Tradicional"],
             profilePicLink: 'https://images.pexels.com/photos/7317354/pexels-photo-7317354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
             bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            songLink: '',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
                 "https://picsum.photos/600/1000?x=2",
@@ -267,6 +276,7 @@ if (!sessionStorage.getItem('users')) {
             badges: ["Top Contratante"],
             profilePicLink: 'https://images.pexels.com/photos/2463016/pexels-photo-2463016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
             bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            songLink: '',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
                 "https://picsum.photos/600/1000?x=2",

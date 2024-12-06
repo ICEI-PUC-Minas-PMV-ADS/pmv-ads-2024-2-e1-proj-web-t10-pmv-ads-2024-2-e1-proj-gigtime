@@ -9,7 +9,7 @@ const users = JSON.parse(sessionStorage.getItem('users')) || [];
 // Gera os cards para cada usuário
 users.forEach(user => {
   const card = `
-    <div class="col d-flex ${user.role}">
+    <div class="col d-flex NO ${user.role} ${user.state}">
       <div class="card flex-fill">
         <a href="#" id="${user.username}">
           <img src="${user.profilePicLink}" class="card-img-top" alt="Imagem de ${user.name}">
@@ -49,6 +49,51 @@ document.addEventListener('DOMContentLoaded', () => {
   const selectedRole = sessionStorage.getItem('selectedRole'); // Recupera a escolha do usuário
   const radioMusician = document.getElementById('radioMusician');
   const radioContractor = document.getElementById('radioContractor');
+  const selectedState = document.getElementById('state');
+
+  // Supondo que você tenha os estados e as funções correspondentes
+const stateActions = {
+    'AC': () => filtrarCards('AC'),
+    'AL': () => filtrarCards('AL'),
+    'AP': () => filtrarCards('AP'),
+    'AM': () => filtrarCards('AM'),
+    'BA': () => filtrarCards('BA'),
+    'CE': () => filtrarCards('CE'),
+    'DF': () => filtrarCards('DF'),
+    'ES': () => filtrarCards('ES'),
+    'GO': () => filtrarCards('GO'),
+    'MA': () => filtrarCards('MA'),
+    'MT': () => filtrarCards('MT'),
+    'MS': () => filtrarCards('MS'),
+    'MG': () => filtrarCards('MG'),
+    'PA': () => filtrarCards('PA'),
+    'PB': () => filtrarCards('PB'),
+    'PR': () => filtrarCards('PR'),
+    'PE': () => filtrarCards('PE'),
+    'PI': () => filtrarCards('PI'),
+    'RJ': () => filtrarCards('RJ'),
+    'RN': () => filtrarCards('RN'),
+    'RS': () => filtrarCards('RS'),
+    'RO': () => filtrarCards('RO'),
+    'RR': () => filtrarCards('RR'),
+    'SC': () => filtrarCards('SC'),
+    'SP': () => filtrarCards('SP'),
+    'SE': () => filtrarCards('SE'),
+    'TO': () => filtrarCards('TO')
+  // Adicione mais estados aqui
+};
+
+document.getElementById('state').addEventListener('change', function() {
+  const selectedState = this.value;
+  const action = stateActions[selectedState];
+
+  if (action) {
+    action(); // Executa a função associada ao estado
+  } else {
+    // Caso o estado não seja válido ou não tenha uma ação associada
+  }
+});
+
 
   if (selectedRole === 'Músico') {
     radioMusician.checked = true; // Marca o botão de Músico
@@ -64,10 +109,10 @@ const radioMusician = document.getElementById('radioMusician');
 const radioContractor = document.getElementById('radioContractor');
 
 // Função para exibir/ocultar os cards com base no papel (role)
-function filtrarCards(roleToShow) {
+function filtrarCards(param) {
   const cards = document.querySelectorAll('.col.d-flex'); // Seleciona todos os cards
   cards.forEach(card => {
-    if (card.classList.contains(roleToShow)) {
+    if (card.classList.contains(param)) {
       // Mostra o card do tipo selecionado
       card.style.setProperty('display', 'flex', 'important');
     } else {
