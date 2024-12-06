@@ -8,8 +8,8 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 
 Desta forma, a equipe está organizada da seguinte maneira:
 - Scrum Master: Lucas Oliveira.
-- Product Owner: Tais Nogueira.
-- Equipe de Desenvolvimento: Carlos Henrique, Jefferson Luiz, Kauã Eduardo, Lucas Oliveira, Tais Nogueira, Willian Viana.
+- Product Owner: Jefferson Luiz.
+- Equipe de Desenvolvimento: Jefferson Luiz, Kauã Eduardo, Lucas Oliveira, Willian Viana.
 - Equipe de Design: Kauã Eduardo, Willian Viana.
 
 ### Processo
@@ -44,6 +44,7 @@ As ferramentas empregadas no projeto são:
 
 - GitHub
 - Figma
+- Bootstrap
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
