@@ -72,12 +72,16 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |<div align=center>Os usuários devem poder se cadastrar na plataforma</div>| Alta |  
+| RF-01 | <div align=center>Os usuários deverão poder se cadastrar na plataforma.</div>| Alta |  
 | RF-02 | <div align=center>Os usuários deverão poder filtrar músicos/contratantes com base em gêneros musicais,</br>localidade e avaliação média.</div>| Alta |
-| RF-03 | <div align=center>Os usuários devem poder se comunicar por chat através da</br>plataforma.</div>| Baixa | 
-| RF-04 | <div align=center>Perfis de usuários devem exibir avaliações e feedbacks de forma</br>pública.</div>| Alta | 
-| RF-05 | <div align=center>Perfis de músicos devem exibir uma página detalhada</br>com informações completas, incluindo vídeos, áudios, fotos,</br>feedbacks e disponibilidade.</div>| Alta |
-| RF-06 | <div align=center>O sistema deve permitir login tradicional.</div>| Alta | 
+| RF-03 | <div align=center>Os usuários deverão poder se comunicar por chat através da</br>plataforma.</div>| Baixa | 
+| RF-04 | <div align=center>Perfis de músicos/bandas devem exibir uma página detalhada</br>com informações completas, incluindo vídeos, fotos</br> e disponibilidade.</div>| Alta |
+| RF-05 | <div align=center>O sistema deve permitir login.</div>| Alta | 
+| RF-06 | <div align=center>Os usuários deverão se cadastrar e aparecer na tela da categoria escolhida no cadastro de perfil (Artista/Contratante).</div>| Alta | 
+| RF-07 | <div align=center>Os usuários poderão clicar no perfil do Artista/Contratante na página inicial e serem levados diretamente para o perfil escolhido.</div>| Alta |
+| RF-08 | <div align=center>O site deve se encontrar totalmente responsivo nas principais das plataformas de uso (smartphones/tablets/notebooks/computadores).</div>| Alta |
+
+
 
 **Prioridade: Alta / Média / Baixa. 
 
@@ -88,7 +92,7 @@
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
 | RNF-01 | <div align=center>A aplicação deve carregar rapidamente, especialmente em</br>páginas críticas como a busca por bandas e perfis.</div>| Alta | 
-| RNF-02 | <div align=center>A aplicação de ter resposta rápida nas interações com a</br>interface, como ao aplicar filtros de busca.</div>| Alta |
+| RNF-02 | <div align=center>A aplicação deve ter resposta rápida nas interações com a</br>interface, como ao aplicar filtros de busca.</div>| Alta |
 | RNF-03 | <div align=center>A arquitetura do sistema deve ser escalável para suportar um</br>número crescente de usuários (bandas e contratantes) sem</br>perda de desempenho.</div>| Alta | 
 | RNF-04 | <div align=center>Possibilidade de integrar uma futura API para backend sem</br>reestruturar o frontend.</div>| Alta |
 | RNF-05 | <div align=center>A interface deve ser simples e intuitiva.</div>| Alta | 
