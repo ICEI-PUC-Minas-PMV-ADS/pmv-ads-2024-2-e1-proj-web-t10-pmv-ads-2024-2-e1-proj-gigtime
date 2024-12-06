@@ -52,7 +52,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | [http://.... ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/tree/main/codigo-fonte)                           |
 | Documentos do projeto               | GitHub                             | [http://....](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/tree/main/documentos)                            |
-| Projeto de Interface                | Figma                              | [http://....](https://www.figma.com/proto/onmbViV0CZKPLkAwXNwSYa/GigTime-(Prot%C3%B3tipo-Baixa-Fidelidade)?node-id=0-1&t=iiWkO5h92PdEwF55-1)                            |
+| Projeto de Interface                | Figma                              | [http://....](https://www.figma.com/design/onmbViV0CZKPLkAwXNwSYa/GigTime-(Prot%C3%B3tipo-Baixa-Fidelidade)?node-id=0-1&t=1oEwtWkeCmYFcEBT-1)                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | [http://....](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1446/views/1?layout=board)                            |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
