@@ -48,34 +48,11 @@ document.addEventListener('DOMContentLoaded', () => {
 if (!sessionStorage.getItem('users')) {
     sessionStorage.setItem('users', JSON.stringify([
         {
-            username: 'admin',
-            name: 'Administrador',
-            email: 'admin@example.com',
-            phone: '(12) 3456-7890',
-            role: 'Músico', // Ou 'contractor', dependendo do caso
-            state: 'SP',
-            city: 'Hortolândia',
-            rating: 5,
-            genres: ["Rock", "MPB", "Sertanejo"],
-            badges: ["O Brabão"],
-            profilePicLink: 'https://pt.quizur.com/_image?href=https://img.quizur.com/f/img6222bee36c5911.81739346.jpg?lastEdited=1646444263&w=600&h=600&f=webp',
-            bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
-            userPicsLinks: [
-                "https://picsum.photos/600/1000?x=1",
-                "https://picsum.photos/600/1000?x=2",
-                "https://picsum.photos/600/1000?x=3",
-                "https://picsum.photos/600/1000?x=4",
-                "https://picsum.photos/600/1000?x=5",
-                "https://picsum.photos/600/1000?x=6",
-            ],
-            password: '1234'
-        },
-        {
             username: 'sonic',
             name: 'Sonic Hedgehog',
             email: 'sonic@sega.com',
-            phone: '(+01)(11) 3456-7891',
-            role: 'Músico', // Ou 'contractor', dependendo do caso
+            phone: '(11) 3456-7891',
+            role: 'Músico',
             state: 'GH',
             city: 'Green Hills',
             rating: 5,
@@ -98,7 +75,7 @@ if (!sessionStorage.getItem('users')) {
             name: 'Cartola',
             email: 'Cartola@comercial.com',
             phone: '(21) 9456-7891',
-            role: 'Músico', // Ou 'contractor', dependendo do caso
+            role: 'Músico',
             state: 'RJ',
             city: 'Rio de Janeiro',
             rating: 5,
@@ -150,7 +127,7 @@ if (!sessionStorage.getItem('users')) {
             rating: 4.8,
             genres: ["Rock", "MPB"],
             badges: ["Estrela em Ascensão"],
-            profilePicLink: 'https://images.pexels.com/photos/1498335/pexels-photo-1498335.jpeg?auto=compress&cs=tinysrgb&w=600',
+            profilePicLink: 'https://images.pexels.com/photos/379962/pexels-photo-379962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
             bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
             userPicsLinks: [
                 "https://picsum.photos/600/1000?x=1",
@@ -230,6 +207,76 @@ if (!sessionStorage.getItem('users')) {
                 "https://picsum.photos/600/1000?x=6",
             ],
             password: 'carol.martins'
+        },
+        {
+            username: 'joaoshow',
+            name: 'João da Silva',
+            email: 'joaoshow@example.com',
+            phone: '(11) 9234-5678',
+            role: 'Contratante',
+            state: 'SP',
+            city: 'São Paulo',
+            rating: 4.7,
+            genres: ["Rock", "Pop"],
+            badges: ["Melhor Produtor"],
+            profilePicLink: 'https://images.pexels.com/photos/1498335/pexels-photo-1498335.jpeg?auto=compress&cs=tinysrgb&w=600',
+            bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            userPicsLinks: [
+                "https://picsum.photos/600/1000?x=1",
+                "https://picsum.photos/600/1000?x=2",
+                "https://picsum.photos/600/1000?x=3",
+                "https://picsum.photos/600/1000?x=4",
+                "https://picsum.photos/600/1000?x=5",
+                "https://picsum.photos/600/1000?x=6",
+            ],
+            password: 'joaoshow123'
+        },
+        {
+            username: 'jazzburger',
+            name: 'Jazz Burger Beer',
+            email: 'jazzburger@example.com',
+            phone: '(31) 9123-4567',
+            role: 'Contratante',
+            state: 'MG',
+            city: 'Belo Horizonte',
+            rating: 4.9,
+            genres: ["MPB", "Jazz"],
+            badges: ["Tradicional"],
+            profilePicLink: 'https://images.pexels.com/photos/7317354/pexels-photo-7317354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            userPicsLinks: [
+                "https://picsum.photos/600/1000?x=1",
+                "https://picsum.photos/600/1000?x=2",
+                "https://picsum.photos/600/1000?x=3",
+                "https://picsum.photos/600/1000?x=4",
+                "https://picsum.photos/600/1000?x=5",
+                "https://picsum.photos/600/1000?x=6",
+            ],
+            password: 'plannerpro2024'
+        },
+        {
+            username: 'operahouse',
+            name: 'Opera House',
+            email: 'operahouse@example.com',
+            phone: '(41) 9988-7766',
+            role: 'Contratante',
+            state: 'PR',
+            city: 'Curitiba',
+            rating: 4.5,
+            genres: ["Sertanejo", "Forró"],
+            badges: ["Top Contratante"],
+            profilePicLink: 'https://images.pexels.com/photos/2463016/pexels-photo-2463016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            bannerPicLink: 'https://picsum.photos/2000/1000?x=1',
+            userPicsLinks: [
+                "https://picsum.photos/600/1000?x=1",
+                "https://picsum.photos/600/1000?x=2",
+                "https://picsum.photos/600/1000?x=3",
+                "https://picsum.photos/600/1000?x=4",
+                "https://picsum.photos/600/1000?x=5",
+                "https://picsum.photos/600/1000?x=6",
+            ],
+            password: 'evento2024'
         }
+        
     ]));
 }

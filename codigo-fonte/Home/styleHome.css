@@ -38,6 +38,13 @@
         font-size: clamp(1.1rem, 3vw, 3rem);
     }
   
+    .card-img-top {
+      width: 100%;          /* Ocupe 100% da largura do contêiner */
+      height: auto;        /* Altura fixa de 200px (ou ajuste como preferir) */
+      aspect-ratio: 1/1;
+      object-fit: cover;    /* Corta as bordas para manter a proporção */
+    }  
+
   .btn-outline-secondary {
     transition: transform 0.2s ease;
   }
@@ -61,4 +68,3 @@
   .nav-link:hover {
     color: rgb(255, 255, 255);
   }
-

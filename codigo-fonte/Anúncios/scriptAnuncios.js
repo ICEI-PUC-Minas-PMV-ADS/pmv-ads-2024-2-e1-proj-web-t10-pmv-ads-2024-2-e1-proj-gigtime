@@ -15,8 +15,11 @@ users.forEach(user => {
           <img src="${user.profilePicLink}" class="card-img-top" alt="Imagem de ${user.name}">
         </a>
         <div class="card-body">
-          <h5 class="card-title">${user.name}</h5>
-          <i class="fa-solid fa-star ms-1 float-end">${user.rating || 'N/A'}</i>
+          <h5 class="card-title">${user.name}
+            <i class="fa-solid fa-star fs-6 ms-1 float-end">
+              <span>${user.rating || 'N/A'}</span>
+            </i>
+          </h5>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
