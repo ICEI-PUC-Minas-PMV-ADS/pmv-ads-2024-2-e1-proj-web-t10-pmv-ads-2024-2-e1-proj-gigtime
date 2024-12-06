@@ -76,7 +76,7 @@
 | RF-02 | <div align=center>Os usuários deverão poder filtrar músicos/contratantes com base em gêneros musicais,</br>localidade e avaliação média.</div>| Alta |
 | RF-03 | <div align=center>Os usuários devem poder se comunicar por chat através da</br>plataforma.</div>| Baixa | 
 | RF-04 | <div align=center>Perfis de usuários devem exibir avaliações e feedbacks de forma</br>pública.</div>| Alta | 
-| RF-05 | <div align=center>Perfis de músicos/bandas devem exibir uma página detalhada</br>com informações completas, incluindo vídeos, áudios, fotos,</br>feedbacks e disponibilidade.</div>| Alta |
+| RF-05 | <div align=center>Perfis de músicos devem exibir uma página detalhada</br>com informações completas, incluindo vídeos, áudios, fotos,</br>feedbacks e disponibilidade.</div>| Alta |
 | RF-06 | <div align=center>O sistema deve permitir login tradicional.</div>| Alta | 
 
 **Prioridade: Alta / Média / Baixa. 
