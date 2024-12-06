@@ -72,18 +72,16 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 | <div align=center>Os usuários devem poder se cadastrar na plataforma</div> | Alta | 
-| RF-02 | <div align=center>Os usuários devem poder editar seus perfis, atualizar</br>informações sobre disponibilidade, contato, preços, e adicionar ou</br>remover materiais de mídia (fotos, vídeos, áudios).</div> | Alta |
-| RF-03 | <div align=center>Os usuários devem poder responder perguntas frequentes ou</br>esclarecerem dúvidas diretamente no perfil.</div>| Média | 
-| RF-04 | <div align=center>Os contratantes devem poder buscar músicos/bandas com base</br>em gênero musical, preço, localidade, quantidade de integrantes,</br>entre outros filtros.</div>| Alta |
-| RF-05 | <div align=center>Os usuários devem poder se comunicar por chat através da</br>plataforma.</div>| Baixa | 
-| RF-06 | <div align=center>Após um evento, os usuários devem poder deixar feedback e</br>avaliações sobre o seu contratante/contratado.</div>| Alta |
-| RF-07 | <div align=center>Perfis de usuários devem exibir avaliações e feedbacks de forma</br>pública.</div>| Alta | 
-| RF-08 | <div align=center>O sistema deve notificar os usuários quando forem contatados,</br>por outro usuário.</div>| Média |
-| RF-09 | <div align=center>Perfis de músicos/bandas devem exibir uma página detalhada</br>com informações completas, incluindo vídeos, áudios, fotos,</br>feedbacks e disponibilidade.</div>| Alta | 
-| RF-10 | <div align=center>Contratantes devem poder adicionar músicos/bandas aos</br>favoritos para facilitar o acesso em futuras cotações.</div>| Baixa |
-| RF-11 | <div align=center>O sistema deve permitir login tradicional (e-mail e senha) e</br>autenticação por terceiros (Google, Facebook).</div>| Alta | 
-| RF-12 | <div align=center>Os usuários devem poder acessar um histórico de contratações</div>| Média |
+| RF-01 | <div align=center>Os usuários deverão poder se cadastrar na plataforma.</div>| Alta |  
+| RF-02 | <div align=center>Os usuários deverão poder filtrar músicos/contratantes com base em gêneros musicais,</br>localidade e avaliação média.</div>| Alta |
+| RF-03 | <div align=center>Os usuários deverão poder se comunicar por chat através da</br>plataforma.</div>| Baixa | 
+| RF-04 | <div align=center>Perfis de músicos/bandas devem exibir uma página detalhada</br>com informações completas, incluindo vídeos, fotos</br> e disponibilidade.</div>| Alta |
+| RF-05 | <div align=center>O sistema deve permitir login.</div>| Alta | 
+| RF-06 | <div align=center>Os usuários deverão se cadastrar e aparecer na tela da categoria escolhida no cadastro de perfil (Artista/Contratante).</div>| Alta | 
+| RF-07 | <div align=center>Os usuários poderão clicar no perfil do Artista/Contratante na página inicial e serem levados diretamente para o perfil escolhido.</div>| Alta |
+| RF-08 | <div align=center>O site deve se encontrar totalmente responsivo nas principais das plataformas de uso (smartphones/tablets/notebooks/computadores).</div>| Alta |
+
+
 
 **Prioridade: Alta / Média / Baixa. 
 
@@ -94,16 +92,15 @@
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
 | RNF-01 | <div align=center>A aplicação deve carregar rapidamente, especialmente em</br>páginas críticas como a busca por bandas e perfis.</div>| Alta | 
-| RNF-02 | <div align=center>A aplicação de ter resposta rápida nas interações com a</br>interface, como ao aplicar filtros de busca.</div>| Alta |
+| RNF-02 | <div align=center>A aplicação deve ter resposta rápida nas interações com a</br>interface, como ao aplicar filtros de busca.</div>| Alta |
 | RNF-03 | <div align=center>A arquitetura do sistema deve ser escalável para suportar um</br>número crescente de usuários (bandas e contratantes) sem</br>perda de desempenho.</div>| Alta | 
 | RNF-04 | <div align=center>Possibilidade de integrar uma futura API para backend sem</br>reestruturar o frontend.</div>| Alta |
 | RNF-05 | <div align=center>A interface deve ser simples e intuitiva.</div>| Alta | 
 | RNF-06 | <div align=center>O design deve ser responsivo, adaptando-se bem a diferentes</br>tamanhos de tela, como dispositivos móveis e desktops.</div>| Alta |
 | RNF-07 | <div align=center>Dados pessoais dos usuários devem ser armazenados de</br>maneira segura, protegendo-os contra acesso não</br>autorizado.</div>| Alta | 
-| RNF-08 | <div align=center>O sistema deve funcionar nos principais navegadores</br>(Chrome, Firefox, Safari, Edge).</div>| Alta |
-| RNF-09 | <div align=center>A aplicação deve ser acessível para usuários com</br>deficiências, implementando práticas recomendadas de</br>acessibilidade web (como suporte para leitores de tela e</br>navegação por teclado).</div>| Média | 
-| RNF-10 | <div align=center>O código deve ser organizado e documentado de forma que</br>futuras atualizações e correções possam ser feitas</br>facilmente.</div>| Média |
-| RNF-11 | <div align=center>A arquitetura deve ser modular, permitindo que novos</br>recursos sejam adicionados sem impactar o sistema</br>existente.</div>| Alta | 
+| RNF-08 | <div align=center>O sistema deve funcionar nos principais navegadores</br>(Chrome, Firefox, Safari, Edge).</div>| Alta | 
+| RNF-09 | <div align=center>O código deve ser organizado e documentado de forma que</br>futuras atualizações e correções possam ser feitas</br>facilmente.</div>| Média |
+| RNF-10 | <div align=center>A arquitetura deve ser modular, permitindo que novos</br>recursos sejam adicionados sem impactar o sistema</br>existente.</div>| Alta | 
 
 **Prioridade: Alta / Média / Baixa. 
 
