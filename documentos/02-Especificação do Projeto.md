@@ -80,7 +80,7 @@
 | RF-06 | <div align=center>Os usuários deverão se cadastrar e aparecer na tela da categoria escolhida no cadastro de perfil (Artista/Contratante).</div>| Alta | 
 | RF-07 | <div align=center>Os usuários poderão clicar no perfil do Artista/Contratante na página inicial e serem levados diretamente para o perfil escolhido.</div>| Alta |
 | RF-08 | <div align=center>O site deve se encontrar totalmente responsivo nas principais das plataformas de uso (smartphones/tablets/notebooks/computadores).</div>| Alta |
-
+| RF-09 | <div align=center>O usuário deve poder visualizar o próprio perfil.</div>| Alta |
 
 
 **Prioridade: Alta / Média / Baixa. 
