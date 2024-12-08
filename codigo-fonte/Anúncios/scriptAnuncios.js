@@ -94,29 +94,6 @@ document.getElementById('state').addEventListener('change', function() {
   }
 });
 
-  // Supondo que você tenha os gêneros e as funções correspondentes
-  const genresActions = {
-    'Sertanejo': () => filtrarCards('Sertanejo'),
-    'Rock': () => filtrarCards('Rock'),
-    'MPB': () => filtrarCards('MPB'),
-    'Pop': () => filtrarCards('Pop'),
-    'Forró': () => filtrarCards('Forró'),
-    'Jazz': () => filtrarCards('Jazz'),
-  // Adicione mais gêneros aqui
-};
-
-document.getElementById('genres').addEventListener('change', function() {
-  const selectedGenres = this.value;
-  const action = genresActions[selectedGenres];
-
-  if (action) {
-    action(); // Executa a função associada ao gênero musical
-  } else {
-    // Caso o gênero musical não seja válido ou não tenha uma ação associada
-  }
-});
-
-
   if (selectedRole === 'Músico') {
     radioMusician.checked = true; // Marca o botão de Músico
     filtrarCards('Músico'); // Aplica o filtro automaticamente
