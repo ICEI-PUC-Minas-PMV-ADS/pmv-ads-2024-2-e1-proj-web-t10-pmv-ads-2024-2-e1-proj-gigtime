@@ -78,7 +78,7 @@ RF-02 | Os usuários deverão poder filtrar músicos/contratantes com base em g�
 
 ### Tela de Chat (RF-03)
 
-Responsável: William
+Responsável: William e Kauã.
 
 Para acessar o chat, primeiramente você irá precisar criar uma conta, depois deste passo, você terá que acessar algum perfil em home ou na tela de anúncios, elas possuem alguns perfis que você pode acessar, após ter acessado logo abaixo do banner ao lado direito você irá de deparar com uma opção “Contate-me”, ao clicar nela você irá de deparar com o chat. As estruturas foram baseadas em HTML, CSS e JS
 
@@ -118,7 +118,7 @@ RF-03 | Os usuários deverão poder se comunicar por chat através da plataforma
 
 ### Tela de perfil (RF-04)
 
-Responsável: William
+Responsável: William e Jefferson.
 
 Para localizar os perfis é necessário navegar pela home, ou pelas telas de anúncios, após escolher um perfil que te atraia, acesse-o, fazendo isso terá acesso a tela de perfil. As estruturas foram baseadas em HTML, CSS e JS
 
@@ -207,7 +207,7 @@ RF-05 | O sistema deve permitir login.
 
 ### Função de cadastrar (RF-06)
 
-Responsável: 
+Responsável: Lucas 
 
 Está função de ver dos perfis cadastrados é possível nas páginas “Home” e “Anúncios”. As estruturas foram baseadas em HTML, CSS e JS.
 
@@ -248,7 +248,7 @@ RF-06 | Os usuários deverão se cadastrar e aparecer na tela da categoria escol
 
 ### Função de perfis na home (RF-07)
 
-Responsável: 
+Responsável: Lucas
 
 Está função está localizada na página inicial (Home), ela permite que você consiga acessar perfis pela página inicial.
 
@@ -289,7 +289,7 @@ RF-07 | Os usuários poderão clicar no perfil do Artista/Contratante na página
 
 ### Responsivo (RF-08)
 
-Responsável: 
+Responsável: Lucas, Jefferson, Kauã e William. 
 
 As paginas estão responsivas para celulares, tablets, notebooks e computadores.
 
