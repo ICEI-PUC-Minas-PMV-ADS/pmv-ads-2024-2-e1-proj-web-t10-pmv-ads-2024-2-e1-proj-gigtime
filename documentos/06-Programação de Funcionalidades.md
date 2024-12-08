@@ -9,7 +9,7 @@ Para acessar a tela de cadastro é necessário ir nas opções que estão dispon
 Tela de cadastro: 
 
 
-![Untitled Diagram-Page-1 drawio](https://user-images.githubusercontent.com/81182674/168495024-300e1d7f-128d-4243-9561-8499c0ddf770.png)
+![rf1](https://github.com/user-attachments/assets/f0bb989f-7406-406e-8f60-b963421208e2)
 
 
 
@@ -46,7 +46,8 @@ O filtro de pesquisa fica localizado no canto direito da tela de anúncios. Para
 Tela de anúncios: 
 
 
-![Untitled Diagram-Page-1 drawio](https://user-images.githubusercontent.com/81182674/168495024-300e1d7f-128d-4243-9561-8499c0ddf770.png)
+![rf2](https://github.com/user-attachments/assets/cd7579c5-163f-4d27-b022-6e6debf33b6f)
+
 
 
 
@@ -84,7 +85,7 @@ Para acessar o chat, primeiramente você irá precisar criar uma conta, depois d
 Tela de chat: 
 
 
-![Untitled Diagram-Page-1 drawio](https://user-images.githubusercontent.com/81182674/168495024-300e1d7f-128d-4243-9561-8499c0ddf770.png)
+![rf3](https://github.com/user-attachments/assets/888f9752-f09f-4a0b-8bb7-9d2991b46545)
 
 
 
@@ -124,7 +125,7 @@ Para localizar os perfis é necessário navegar pela home, ou pelas telas de an�
 Tela de perfil: 
 
 
-![Untitled Diagram-Page-1 drawio](https://user-images.githubusercontent.com/81182674/168495024-300e1d7f-128d-4243-9561-8499c0ddf770.png)
+![rf4](https://github.com/user-attachments/assets/db1967d1-63ee-4f26-8e1e-c391468087b3)
 
 
 
@@ -170,7 +171,7 @@ Para acessar a tela de cadastro é necessário ir nas opções que estão dispon
 Tela de login: 
 
 
-![Untitled Diagram-Page-1 drawio](https://user-images.githubusercontent.com/81182674/168495024-300e1d7f-128d-4243-9561-8499c0ddf770.png)
+![rf5](https://github.com/user-attachments/assets/6f632a4e-c913-4160-9dd9-c40f2bf053bb)
 
 
 
@@ -213,7 +214,7 @@ Está função de ver dos perfis cadastrados é possível nas páginas “Home�
 Tela de anúncios: 
 
 
-![Untitled Diagram-Page-1 drawio](https://user-images.githubusercontent.com/81182674/168495024-300e1d7f-128d-4243-9561-8499c0ddf770.png)
+![rf6](https://github.com/user-attachments/assets/afcaaeea-21a5-48f6-a3c1-a596f7389072)
 
 
 
@@ -254,7 +255,7 @@ Está função está localizada na página inicial (Home), ela permite que você
 Tela de anúncios: 
 
 
-![Untitled Diagram-Page-1 drawio](https://user-images.githubusercontent.com/81182674/168495024-300e1d7f-128d-4243-9561-8499c0ddf770.png)
+![rf7](https://github.com/user-attachments/assets/14b6d00b-2b19-498f-8d36-c7fdd1645715)
 
 
 
@@ -295,7 +296,7 @@ As paginas estão responsivas para celulares, tablets, notebooks e computadores.
 Tela de página inicial mobile: 
 
 
-![Untitled Diagram-Page-1 drawio](https://user-images.githubusercontent.com/81182674/168495024-300e1d7f-128d-4243-9561-8499c0ddf770.png)
+![rf8](https://github.com/user-attachments/assets/871598f9-46da-4f3f-ac96-82ab5f9dba32)
 
 
 
