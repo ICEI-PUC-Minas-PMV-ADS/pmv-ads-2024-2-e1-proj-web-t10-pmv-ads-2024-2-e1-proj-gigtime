@@ -61,4 +61,14 @@ Sistema de mensagens que permite a comunicação direta entre músicos e contrat
 
 ---
 
-A logomarca foi projetada considerando um dos instrumentos mais emblemáticos da música, reforçando a conexão da identidade visual com o propósito da plataforma.
+A logotipo foi escolhida considerando um dos instrumentos mais emblemáticos da música, reforçando a conexão da identidade visual com o propósito da plataforma. Optamos pela versão em branco para o site, mas disponibilizamos a versão em laranja para facilitar a visualização aqui no GitHub.
+
+![image (2)](https://github.com/user-attachments/assets/cc31c93b-992e-4759-9059-7b8ca30d93d2)  
+<figcaption>Figura 6 - Logotipo em laranja</figcaption>
+
+---
+
+![image (3)](https://github.com/user-attachments/assets/2583f1ef-d8e9-4f8b-8630-d992c190558f)  
+<figcaption>Figura 7 - Logotipo em branco</figcaption>
+
+
