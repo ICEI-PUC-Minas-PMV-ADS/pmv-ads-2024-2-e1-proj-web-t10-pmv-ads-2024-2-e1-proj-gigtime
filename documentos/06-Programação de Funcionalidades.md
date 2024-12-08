@@ -30,7 +30,7 @@ RF-01 | Os usuários deverão poder se cadastrar na plataforma.
 
 #### Instruções de acesso
 
-1º Abra um navegador de internet e informe o seguinte URL:
+1º Abra um navegador de internet e informe o seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/codigo-fonte/Home/home.html
 
 2° Após abrir a URL você irá se deparar com a home, ao lado superior direito notara que existe duas opções, clique na segunda opção “Inscreva-se”, assim terá acesso para pagina de cadastro. 
 
@@ -68,7 +68,7 @@ RF-02 | Os usuários deverão poder filtrar músicos/contratantes com base em g�
 
 #### Instruções de acesso
 
-1° Abra um navegador de internet e informe o seguinte URL:
+1° Abra um navegador de internet e informe o seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/codigo-fonte/Home/home.html
 
 2° Após abrir a URL você irá se deparar com a home, logo em seguida você conseguira avistar em baixo da mensagem “Hey, Rockers! O que você procura?” duas opções “Músicos” e “Contratantes”, as duas opções irão te levar para uma tela de anúncios 
  
@@ -105,7 +105,7 @@ RF-03 | Os usuários deverão poder se comunicar por chat através da plataforma
 
 #### Instruções de acesso
 
-1° Abra um navegador de internet e informe o seguinte URL:
+1° Abra um navegador de internet e informe o seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/codigo-fonte/Home/home.html
 
 2° Após abrir a URL você irá se deparar com a home, pelo decorrer da home você conseguira ver alguns perfis, caso queira mais perfis você poderá escolher uma das duas opções que ficam no início da página “Músicos” e “Contratantes”, lá você terá acesso a mais perfis.
 
@@ -150,7 +150,7 @@ RF-04 | Perfis de músicos/bandas devem exibir uma página detalhada com informa
 
 #### Instruções de acesso
 
-1° Abra um navegador de internet e informe o seguinte URL:
+1° Abra um navegador de internet e informe o seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/codigo-fonte/Home/home.html
 
 2° Após abrir a URL você irá se deparar com a home, pelo decorrer da home você conseguira ver alguns perfis, caso queira mais perfis você poderá escolher uma das duas opções que ficam no início da página “Músicos” e “Contratantes”, lá você terá acesso a mais perfis.
 
@@ -194,7 +194,7 @@ RF-05 | O sistema deve permitir login.
 
 #### Instruções de acesso
 
-1º Abra um navegador de internet e informe o seguinte URL: 
+1º Abra um navegador de internet e informe o seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/codigo-fonte/Home/home.html 
 
 2° Após abrir a URL você irá se deparar com a home, ao lado superior direito notara que existe duas opções, clique na primeira opção “Entrar”, assim terá acesso para pagina de cadastro.
  
@@ -234,7 +234,7 @@ RF-06 | Os usuários deverão se cadastrar e aparecer na tela da categoria escol
 
 #### Instruções de acesso
 
-1º Abra um navegador de internet e informe o seguinte URL: 
+1º Abra um navegador de internet e informe o seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/codigo-fonte/Home/home.html 
 
 2° Após um cadastro ser feito, você conseguira ver está função em ação nas telas de anúncios e na home.
 
@@ -275,7 +275,7 @@ RF-07 | Os usuários poderão clicar no perfil do Artista/Contratante na página
 
 #### Instruções de acesso
 
-1º Abra um navegador de internet e informe o seguinte URL: 
+1º Abra um navegador de internet e informe o seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/codigo-fonte/Home/home.html 
 
 2° Você conseguira ver está função na página inicial.
 
@@ -316,7 +316,7 @@ RF-08 | O site deve se encontrar totalmente responsivo nas principais das plataf
 
 #### Instruções de acesso
 
-1º Abra um navegador de internet e informe o seguinte URL: 
+1º Abra um navegador de internet e informe o seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t10-pmv-ads-2024-2-e1-proj-gigtime/codigo-fonte/Home/home.html 
 
 2° Você conseguira ver está função em todas as páginas.
 
