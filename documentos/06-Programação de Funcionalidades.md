@@ -20,11 +20,11 @@ RF-01 | Os usuários deverão poder se cadastrar na plataforma.
 
 #### Artefatos da funcionalidade
 
-● registro.html
-● styleReg.css
-● global.css
-● scriptRegistro.js
-● global.js
+● registro.html<br>
+● styleReg.css<br>
+● global.css<br>
+● scriptRegistro.js<br>
+● global.js<br>
 
 
 
@@ -57,11 +57,11 @@ RF-02 | Os usuários deverão poder filtrar músicos/contratantes com base em g�
 
 #### Artefatos da funcionalidade
 
-● anuncios.html
-● styleAnuncios.css
-● global.css
-● scriptAnuncios.js
-● global.js
+● anuncios.html<br>
+● styleAnuncios.css<br>
+● global.css<br>
+● scriptAnuncios.js<br>
+● global.js<br>
 
 
 
@@ -95,10 +95,10 @@ RF-03 | Os usuários deverão poder se comunicar por chat através da plataforma
 
 #### Artefatos da funcionalidade
 
-● chat.html
-● stylesheet.css
-● global.css
-● global.js
+● chat.html<br>
+● stylesheet.css<br>
+● global.css<br>
+● global.js<br>
 
 
 
@@ -135,14 +135,14 @@ RF-04 | Perfis de músicos/bandas devem exibir uma página detalhada com informa
 
 #### Artefatos da funcionalidade
 
-●	perfil.html
-●	perfilContratante.html
-●	stylePerfil.css
-●	stylesheetperfilContratante.css
-●	perfil.js
-●	perfilContratante.js
-●	global.css
-●	global.js
+●	perfil.html<br>
+●	perfilContratante.html<br>
+●	stylePerfil.css<br>
+●	stylesheetperfilContratante.css<br>
+●	perfil.js<br>
+●	perfilContratante.js<br>
+●	global.css<br>
+●	global.js<br>
 
 
 
@@ -181,11 +181,11 @@ RF-05 | O sistema deve permitir login.
 
 #### Artefatos da funcionalidade
 
-●	login.html
-●	styleLogin.css
-●	global.css
-●	scriptLogin.js
-●	global.js
+●	login.html<br>
+●	styleLogin.css<br>
+●	global.css<br>
+●	scriptLogin.js<br>
+●	global.js<br>
 
 
 
@@ -224,8 +224,8 @@ RF-06 | Os usuários deverão se cadastrar e aparecer na tela da categoria escol
 
 #### Artefatos da funcionalidade
 
-●	global.css
-●	global.js
+●	global.css<br>
+●	global.js<br>
 
 
 
@@ -265,8 +265,8 @@ RF-07 | Os usuários poderão clicar no perfil do Artista/Contratante na página
 
 #### Artefatos da funcionalidade
 
-●	global.css
-●	global.js
+●	global.css<br>
+●	global.js<br>
 
 
 
@@ -306,8 +306,8 @@ RF-08 | O site deve se encontrar totalmente responsivo nas principais das plataf
 
 #### Artefatos da funcionalidade
 
-●	global.css
-●	global.js
+●	global.css<br>
+●	global.js<br>
 
 
 
