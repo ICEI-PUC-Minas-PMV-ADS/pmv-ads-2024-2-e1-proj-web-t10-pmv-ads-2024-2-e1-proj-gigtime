@@ -118,6 +118,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 </table>
 </table>
  <tr>
+  <table>
   <td>CT-05: Verificar o funcionamento do filtro de localidade.</td>
   <td>
    <ul>
