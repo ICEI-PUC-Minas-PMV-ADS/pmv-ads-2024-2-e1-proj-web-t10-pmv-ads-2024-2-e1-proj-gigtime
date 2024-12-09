@@ -72,7 +72,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Jefferson</td>
  </tr>
 </table>
-
+<table>
   <td>CT-03: Verificar o funcionamento do filtro de pesquisa de gêneros musicais.</td>
   <td>
    <ul>
@@ -95,6 +95,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
  <tr>
+  <table>
   <td>CT-04: Verificar o funcionamento dos perfis na página Home.</td>
   <td>
    <ul>
