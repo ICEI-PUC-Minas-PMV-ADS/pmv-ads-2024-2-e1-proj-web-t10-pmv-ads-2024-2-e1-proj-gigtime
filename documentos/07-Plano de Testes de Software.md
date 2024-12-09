@@ -51,6 +51,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Critérios de êxito</th>
   <th>Responsável</th>
  </tr>
+ 
  <tr>
   <td>CT-02: Verificar o funcionamento do filtro de pesquisa de gêneros musicais.</td>
   <td>
@@ -73,25 +74,71 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+  <td>CT-03: Verificar o funcionamento do filtro de pesquisa de gêneros musicais.</td>
+  <td>
+   <ul>
+    <li>RF-003:	Os usuários deverão poder se comunicar por chat através da plataforma.</li>
+    <li>RF-004:	Perfis de músicos/bandas devem exibir uma página detalhada com informações completas, incluindo vídeos, fotos e disponibilidade.</li>
+   </ul>
+  </td>
+  <td>Verificar se o filtro de pesquisa está recuperando os dados inseridos pelo usuário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar no perfil do Artista/Estabelecimento.</li>
+    <li>Clicar no Contate-me para se comunicar.</li>
+       </ol>
+   </td>
+  <td>Os dados inseridos no filtro de pesquisa devem mostrar o artista/estabelecimento onde há o dado informado.</td>
+  <td>Jefferson</td>
+ </tr>
+</table>
+ <tr>
+  <td>CT-04: Verificar o funcionamento dos perfis na página Home.</td>
+  <td>
+   <ul>
+    <li>RF-006:	Os usuários deverão se cadastrar e aparecer na tela da categoria escolhida no cadastro de perfil (Artista/Contratante).</li>
+   </ul>
+  </td>
+  <td>Verificar se após o cadastro o perfil aparece na página Home.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Se cadastrar.</li>
+    <li>Voltar para a página Home.</li>
+   </ol>
+   </td>
+  <td>O perfil deve aparecer logo após voltar para a página home e fazer o login.</td>
+  <td>Jefferson</td>
+ </tr>
+</table>
+
+</table>
+ <tr>
+  <td>CT-05: Verificar o funcionamento do filtro de localidade.</td>
+  <td>
+   <ul>
+   <li>O site deve se encontrar totalmente responsivo nas principais das plataformas de uso (smartphones/tablets/notebooks/computadores).</li>
+   </ul>
+  </td>
+  <td>Verificar se está funcionando em todas as plataformas.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>CTRL + Shift + I</li>
+    <li>Testar todas as opções e se está funcional.</li>
+   </ol>
+   </td>
+  <td>Todas as opções devem funcionar normalmente.</td>
+  <td>Jefferson</td>
+ </tr>
+</table>
 
 
-# Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
