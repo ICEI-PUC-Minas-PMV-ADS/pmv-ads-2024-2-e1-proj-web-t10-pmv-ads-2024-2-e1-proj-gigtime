@@ -5,15 +5,34 @@
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 
-# Registro de Testes de Software
+RF-01	
+Os usuários deverão poder se cadastrar na plataforma.
+https://imgur.com/90Xe4sf
 
-Relatório com as evidências dos testes de software realizados na aplicação pela equipe, baseado no plano de testes pré-definido.
+RF-02	
+Os usuários deverão poder filtrar músicos/contratantes com base em gêneros musicais,
+localidade e avaliação média.
+https://imgur.com/V4FzGh2
 
-Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
+RF-03	
+Os usuários deverão poder se comunicar por chat através da
+plataforma.
+https://imgur.com/G0MgS4b
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Resultados obtidos | Descrever resultados do teste  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+RF-04	
+Perfis de músicos/bandas devem exibir uma página detalhada
+com informações completas, incluindo vídeos, fotos
+e disponibilidade.
+https://imgur.com/xeojsKl
 
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+RF-05	
+O sistema deve permitir login.
+https://imgur.com/bbgIIXw
+
+RF-06	
+Os usuários deverão se cadastrar e aparecer na tela da categoria escolhida no cadastro de perfil (Artista/Contratante).
+https://imgur.com/tra33LP
+
+RF-07	
+O usuário deve poder visualizar o próprio perfil.
+https://imgur.com/qj3nDKU
