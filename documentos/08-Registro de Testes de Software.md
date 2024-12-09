@@ -4,6 +4,7 @@
 
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
+Responsável: Jefferson
 
 RF-01	
 Os usuários deverão poder se cadastrar na plataforma.
