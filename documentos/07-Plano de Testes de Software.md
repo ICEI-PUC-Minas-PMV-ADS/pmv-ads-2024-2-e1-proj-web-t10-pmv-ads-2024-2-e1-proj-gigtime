@@ -51,7 +51,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Critérios de êxito</th>
   <th>Responsável</th>
  </tr>
- 
  <tr>
   <td>CT-02: Verificar o funcionamento do filtro de pesquisa de gêneros musicais.</td>
   <td>
@@ -89,7 +88,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Visualizar a página Home.</li>
     <li>Clicar no perfil do Artista/Estabelecimento.</li>
     <li>Clicar no Contate-me para se comunicar.</li>
-       </ol>
+   </ol>
    </td>
   <td>Os dados inseridos no filtro de pesquisa devem mostrar o artista/estabelecimento onde há o dado informado.</td>
   <td>Jefferson</td>
@@ -116,7 +115,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Jefferson</td>
  </tr>
 </table>
-
 </table>
  <tr>
   <td>CT-05: Verificar o funcionamento do filtro de localidade.</td>
